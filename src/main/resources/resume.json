@@ -1,0 +1,578 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Andreas Biberacher",
+    "label": "Swiss Army Knife for Software Engineering || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
+    "image": "",
+    "email": "andreas-biberacher@gmx.de",
+    "phone": "+49 177 4330306",
+    "summary": "I'm a passionate Tech Lead specializing in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in agile team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities, etc.), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can work together.",
+    "location": {
+      "countryCode": "DE",
+      "city": "Stuttgart",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "andreas-biberacher",
+        "url": "https://www.linkedin.com/in/andreas-biberacher/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Groundbreaker",
+      "position": "Mentor",
+      "startDate": "2024-04-30",
+      "highlights": [],
+      "summary": "Volunteer mentor at Groundbreaker gGmbH's mentoring program for women in tech.\nThe one-year mentoring program aims to provide career starters with the tools they need to enter the world of software engineering. \n\nResponsibilities:\n• Weekly mentoring sessions\n• Software engineering basic and advanced concepts\n• Career development paths\n• Methods for independent knowledge acquisition (lifelong learning)\n• Pair Programming\n• Workshops",
+      "url": "https://www.linkedin.com/company/be-a-groundbreaker/",
+      "location": "Kampala, Central Region, Uganda"
+    },
+    {
+      "name": "T-Systems on site services GmbH",
+      "position": "Solutions Architect",
+      "startDate": "2023-07-31",
+      "highlights": [],
+      "summary": "Project scope: Automated detection of drones in high-security areas such as airports and stadiums.\n\nResponsibilities: \n• Overall responsibility for the software and platform architecture\n• Requirements engineering (e.g. for integration into C2-systems)\n• Quality assurance (in particular security/penetration testing)\n• Accompanying the internal privacy & security audit (PSA) process\n• Design of an architecture for low latency data streaming (edge computing)",
+      "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
+      "location": "Stuttgart, Baden-Württemberg, Germany"
+    },
+    {
+      "name": "T-Systems on site services GmbH",
+      "position": "Chapter Lead",
+      "startDate": "2023-01-31",
+      "highlights": [],
+      "summary": "Scope: Building a self-contained team that brings all skills to build reliable, secure, and scalable software in the context of cloud computing.\n\nResponsibilities:\n• Chapter Lead of ~15 Developers and Cloud Consultants\n• Development and execution of a go-to-market strategy\n• (Pre-)Sales activities and customer relationship management (CRM)\n• Deal negotiation of work and service contracts\n• Service Delivery Management (SDM)\n• Guild Lead of the Cloud & IoT Guild",
+      "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
+      "location": "Stuttgart, Baden-Württemberg, Germany"
+    },
+
+    {
+      "name": "Reutlingen University",
+      "position": "University Lecturer",
+      "startDate": "2018-09-30",
+      "highlights": [],
+      "summary": "Scope: Introduction to programming and data analyses for students with technical and none-technical backgrounds.\n\nResponsibilities:\n• Introduction to data structures and procedures\n• Hands-on software development\n• Software quality attributes (focused on maintainability and modifiability with the concepts of loose coupling and cohesion)\n• Concepts of Software Engineering (requirements engineering, development methods, black-box testing, and in-code documentation)\n• User experience design (focused on customer value and exception handling)\n\nVolume: 30 hours per Semester",
+      "url": "https://www.linkedin.com/company/reutlingen-university/",
+      "location": "Reutlingen, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "T-Systems on site services GmbH",
+      "position": "Solutions Architect",
+      "startDate": "2020-03-31",
+      "endDate": "2024-02-28",
+      "highlights": [],
+      "summary": "Scope: Development and execution of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Analyzing existing synchronous (SOAP, CICS, IMS, SFTP) and asynchronous (IBM MQ, ActiveMQ) system interfaces, as well as middleware components (DB2, Java Native Interface, WebSphere)\n• Re-architecting of high demand system modules by decoupling interfaces from the application core based on the dependency inversion principle (Clean Architecture) to achieve modifiability and scalability\n• Standardizing interfaces based on the technologies REST, and Apache Kafka\n• Design and implement an event-based data streaming of business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Sub-project management and team coordination (local, nearshore, and offshore)\n\n\nFor more details, request the project journal.",
+      "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "T-Systems on site services GmbH",
+      "position": "Senior Java Software Engineer",
+      "startDate": "2019-11-30",
+      "endDate": "2020-03-31",
+      "highlights": [],
+      "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Development of scalable and maintainable RESTful services\n• Test automation \n• Creation of business objects with Apache Spark\n• Asynchronous data provision with Apache Kafka\n• Setting up fully automated monitoring with business-specific monitoring metrics \n• Setting up a fully automated CI / CD pipeline with corresponding quality gateways and GitSecOps mechanisms.",
+      "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
+      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+    },
+    {
+      "name": "Biberacher IT-Solutions",
+      "position": "Freelance Software Engineer",
+      "startDate": "2017-04-30",
+      "endDate": "2025-01-01",
+      "highlights": [],
+      "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs.\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data entry steps.\n• Consultation for ERP systems for medium-sized practices and laboratories.\n\nProject #2: Real estate market\nProject Scope: Identification of historically undervalued commercial properties\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting with Prometheus and Grafana\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Creating a website for ticket sales for community events with Angular\n• Creating websites with a focus on ease of use and low maintenance with WordPress",
+      "location": "Region Stuttgart"
+    },
+    {
+      "name": "QUANTO Solutions",
+      "position": "Master Thesis",
+      "startDate": "2018-10-31",
+      "endDate": "2019-05-31",
+      "highlights": [],
+      "summary": "Scope: IT security in microservice-based systems: From monolith to a secure cloud-native application\n\nTasks:\n• Migration of an existing Java EE based IoT integration platform to Java Spring\n• Development of a microservice reference architecture with focus on scalability and cybersecurity\n• Security Audit based on NIST CSF and ISO/IEC 27001\n• Implementation of a deployment pipeline to several cloud vendors (Cloud Foundry, AWS, MS Azure)",
+      "url": "https://www.linkedin.com/company/quanto-solutions/",
+      "location": "Stuttgart und Umgebung, Deutschland"
+    },
+    {
+      "name": "Automotive Lighting",
+      "position": "Working Student",
+      "startDate": "2017-03-31",
+      "endDate": "2018-09-30",
+      "highlights": [],
+      "summary": "Scope: Modernization and extension of a product configurator for control unit platforms.\n\nTasks:\n• Designing an open-source modernization strategy for a Microsoft Access-based application with Visual Basic frontend\n• Migrating the application to Java Spring, Thymeleaf (including jQuery and Bootstrap), and PostgreSQL\n• Integration of a process engine (BPMN, DMN)\n• System documentation with arc42",
+      "url": "https://www.linkedin.com/company/marelligroup/",
+      "location": "Reutlingen und Umgebung, Deutschland"
+    },
+    {
+      "name": "Braincourt GmbH",
+      "position": "Bachelor Thesis",
+      "startDate": "2016-10-31",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "summary": "Scope: Predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nTasks:\n• Developing a business case\n• Data collection from manufacturing execution systems (MES)\n• Designing a reference architecture for data stream analysis for predictive quality measures\n• Implementing software for predictive analysis and real-time visualization of data streams using Hadoop, Spark, and Tableau\n• Configuring a Spark cluster in AWS",
+      "location": "Stuttgart und Umgebung, Deutschland"
+    },
+    {
+      "name": "Robert Bosch GmbH",
+      "position": "Working Student",
+      "startDate": "2014-10-31",
+      "endDate": "2016-10-31",
+      "highlights": [],
+      "summary": "Scope: Predictive Analytics for electronic end measurement methods of air pressure sensors.\n\nTasks:\n• Automated data export from manufacturing systems\n• Data cleaning with Python (Pandas and NumPy)\n• Creating a prediction model\n• Automated data visualization with Tableau, MatLab, and Excel\n• Web Development",
+      "url": "https://www.linkedin.com/company/bosch/",
+      "location": "Reutlingen und Umgebung, Deutschland"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Hochschule Reutlingen",
+      "area": "Wirtschaftsinformatik",
+      "studyType": "Master of Science - MS",
+      "startDate": "2017-12-31",
+      "endDate": "2019-12-31",
+      "score": "1,2",
+      "courses": []
+    },
+    {
+      "institution": "Hochschule Reutlingen",
+      "area": "Wirtschaftsinformatik",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2014-12-31",
+      "endDate": "2017-12-31",
+      "score": "1,8",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Graduation Master of class Business Informatics Summer Semester 2019",
+      "date": "2019-10-31",
+      "awarder": "Reutlingen University",
+      "summary": ""
+    },
+    {
+      "title": "MHP university award for innovative research",
+      "date": "2018-10-31",
+      "awarder": "MHP",
+      "summary": "IoT Engineering: From an idea to a scalable business case"
+    },
+    {
+      "title": "Ethikum",
+      "date": "2015-10-31",
+      "awarder": "Referat für Technik und Wissenschaftsethik (rtwe)",
+      "summary": "Award for ethics and sustainability (grade: 1.3) \nWorkload: 7 ECTS (210 hours)      http://rtwe.de/ethikum.html"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "endDate": "2027-04-30",
+      "startDate": "2024-04-30",
+      "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/9563fa3c4f6d40c6b963ec32b16d37a3"
+    },
+    {
+      "name": "Linux Essentials Certification",
+      "issuer": "Linux Professional Institute (LPI)",
+      "startDate": "2024-01-31",
+      "url": "http://lpi.org/v/LPI000584500/uxmdtn9p4b"
+    },
+    {
+      "name": "Security Essentials Certification (020-100)",
+      "issuer": "Linux Professional Institute (LPI)",
+      "startDate": "2024-01-31",
+      "url": "http://lpi.org/v/LPI000584500/ujdruhenvs"
+    },
+    {
+      "name": "Prompt Engineering for Developers",
+      "issuer": "DeepLearning.AI",
+      "startDate": "2023-08-31",
+      "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+    },
+    {
+      "name": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "startDate": "2023-07-31"
+    },
+    {
+      "name": "LevelUp! leadFIRST",
+      "issuer": "Deutsche Telekom",
+      "startDate": "2023-05-31",
+      "url": "https://www.telekom.com/en/careers/your-professional-career/development-for-leaders"
+    },
+    {
+      "name": "The Open Group Certified Architect",
+      "issuer": "The Open Group",
+      "startDate": "2023-05-31",
+      "url": "https://www.credly.com/badges/d46e12cb-09f8-4ede-a6f2-9a115c432781/public_url"
+    },
+    {
+      "name": "Brandschutzhelfer",
+      "issuer": "BAD GmbH",
+      "startDate": "2023-04-30",
+      "url": "https://www.bad-gmbh.de/veranstaltungen/ausbildung-zum-brandschutzhelfer-4923/"
+    },
+    {
+      "name": "Telekom Security & Privacy Champion",
+      "issuer": "Deutsche Telekom",
+      "startDate": "2023-04-30",
+      "url": "https://www.telekom.com/resource/blob/622936/14d5801a145ff4feb2bd97543abca6c3/dl-psa-booklet-en-data.pdf"
+    },
+    {
+      "name": "Professional Scrum Product Owner™ II (PSPO II)",
+      "issuer": "Scrum.org",
+      "startDate": "2022-09-30",
+      "url": "https://www.scrum.org/certificates/855043"
+    },
+    {
+      "name": "Professional Cloud Architect",
+      "issuer": "Google",
+      "endDate": "2024-08-31",
+      "startDate": "2022-08-31",
+      "url": "https://www.credential.net/5e873e8d-e0ae-4265-a2be-bec8705c9c32"
+    },
+    {
+      "name": "LevelUp! Next Generation",
+      "issuer": "Deutsche Telekom",
+      "startDate": "2021-12-31",
+      "url": "https://www.detecon.com/de/level-leading-agile"
+    },
+    {
+      "name": "Professional Scrum Master™ II (PSM II)",
+      "issuer": "Scrum.org",
+      "startDate": "2021-09-30",
+      "url": "https://www.scrum.org/user/652855"
+    },
+    {
+      "name": "Data-driven improvement of software quality",
+      "issuer": "INNOQ",
+      "startDate": "2021-07-31",
+      "url": "https://www.innoq.com/en/trainings/software-analytics/"
+    },
+    {
+      "name": "CKAD: Certified Kubernetes Application Developer",
+      "issuer": "The Linux Foundation",
+      "endDate": "2024-05-31",
+      "startDate": "2021-05-31",
+      "url": "https://training.linuxfoundation.org/certification/verify/"
+    },
+    {
+      "name": "iSAQB Certified Professional for Software Architecture (CPSA) - F",
+      "issuer": "Certible",
+      "startDate": "2021-02-28",
+      "url": "https://www.certible.com/de/verify/cb220b7c2baaff694ccba5cc54713a4f"
+    },
+    {
+      "name": "ITIL v4",
+      "issuer": "AXELOS Global Best Practice",
+      "startDate": "2020-12-31",
+      "url": "https://fa-axelos-prod-ukw.azurewebsites.net/api/scr/?surname=Biberacher&scheme=ITIL+4"
+    },
+    {
+      "name": "Didactic basic course for lecturers at universities  (\"Hochschuldidaktischer Basiskurs für Lehrbeauftragte\")",
+      "issuer": "Land Baden-Württemberg",
+      "startDate": "2020-07-31",
+      "url": "https://www.hochschuldidaktik.net/fortbildungen/baden-wuerttemberg-zertifikat-fuer-hochschuldidaktik"
+    },
+    {
+      "name": "Professional Scrum Master PSM1",
+      "issuer": "Scrum.org",
+      "startDate": "2020-04-30",
+      "url": "https://www.scrum.org/certificates/522926"
+    },
+    {
+      "name": "Ethikum",
+      "issuer": "Referat für Technik- und Wirtschaftsethik (RTWE)",
+      "startDate": "2015-06-30",
+      "url": "http://rtwe.de/ethikum.html"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Service Delivery Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Relationship Management (CRM)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Presales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Legacy Modernization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C-Level Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Mesh",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Sector",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Domain-Driven Design (DDD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Clean Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "University Teaching",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teaching",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Internet of Things (IoT)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Engagement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GraphQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST-API",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "University Lecturing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Infrastructure as code (IaC)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Hadoop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Manufacturing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Coaching & Mentoring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cybersecurity",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Healthcare",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Visualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Requirements Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevSecOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Automotive",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Big Data Analytics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Finance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Objektorientierte Programmierung (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Softwarearchitektur",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methoden",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "de",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Edison de Azevedo Filho",
+      "reference": "Andreas was the Product Owner and Architect for a project we worked on together. I had excellent experiences with Agile processes, and autonomy to manage activities, we experienced many processes running in Agile methodology. He provided an excellent working environment and was always available to help the team. As an architect, he designed an architecture for a new system that was extremely modern, and despite the complexity of the project, he managed to make it easy to understand, as there was documentation of all points, in addition to constant architecture meetings with the team with to discuss improvements."
+    },
+    {
+      "name": "Santana, Micael",
+      "reference": "Andreas is a true asset to any team. He brings a wealth of knowledge and expertise in cloud architecture, and is always eager to lend a hand and share his insights. Beyond his technical skills, Andreas has a deep commitment to collaboration and teamwork, making him an valuable partner in any project. He is also dedicated to staying current with the latest advancements and trends in his field, ensuring that he is always at the forefront of innovation. It was a privilege to work alongside someone of Andreas' caliber, and I feel honored to have had the opportunity to learn from him and benefit from his contributions."
+    },
+    {
+      "name": "Anamaria Onaciu",
+      "reference": "During the time we worked together, I learned the following things from Andreas. Things that are very important for a good team leader and a \"healthy\" team : \n- he knows very well the technical aspects, and this is very useful for the team and for the project\n- he doesn’t say YES to each request from the team. He analyses together with the team members the best solution for them and for the project.\n- he has a lot of patience\n- he has a respectful attitude towards all team members\n- he creates a favourable climate for the team to develop professionally and not to be afraid to ask questions or to say, \"I don't know\".\n- he blocks the pressure from the client and other aspects / discussions which are not productive and should not be felt / reach by the team.\n- he asks the team to make some decisions\n- he discusses the real things for improvement to retrospective in a professional way\n- he always comes with things to be improved and this helps to grow up the team"
+    },
+    {
+      "name": "Monica Dogaru",
+      "reference": "Andreas is an experienced cloud architect and is always there to help or respond to any question anyone might have, has a good team spirit and he is always looking for improvements or updates. \nIt was a pleasure working with you :)"
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
