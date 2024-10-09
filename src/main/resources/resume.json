@@ -3,7 +3,8 @@
   "basics": {
     "name": "Andreas Biberacher",
     "label": "Swiss Army Knife for Software Engineering || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
-    "image": "",
+    "image": "http://localhost:52330/src/main/resources/img/profile.JPEG",
+    "picture": "http://localhost:52330/src/main/resources/img/profile.JPEG",
     "email": "andreas-biberacher@gmx.de",
     "phone": "+49 177 4330306",
     "summary": "I'm a passionate Tech Lead specializing in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in agile team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities, etc.), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can work together.",
@@ -17,19 +18,20 @@
         "network": "LinkedIn",
         "username": "andreas-biberacher",
         "url": "https://www.linkedin.com/in/andreas-biberacher/"
+      },
+      {
+        "network": "GitHub",
+        "username": "bibAtWork",
+        "url": "https://github.com/bibAtWork/"
+      },
+      {
+        "network": "Researchgate",
+        "username": "Andreas Biberacher",
+        "url": "https://www.researchgate.net/profile/Andreas-Biberacher"
       }
     ]
   },
   "work": [
-    {
-      "name": "Groundbreaker",
-      "position": "Mentor",
-      "startDate": "2024-04-30",
-      "highlights": [],
-      "summary": "Volunteer mentor at Groundbreaker gGmbH's mentoring program for women in tech.\nThe one-year mentoring program aims to provide career starters with the tools they need to enter the world of software engineering. \n\nResponsibilities:\n• Weekly mentoring sessions\n• Software engineering basic and advanced concepts\n• Career development paths\n• Methods for independent knowledge acquisition (lifelong learning)\n• Pair Programming\n• Workshops",
-      "url": "https://www.linkedin.com/company/be-a-groundbreaker/",
-      "location": "Kampala, Central Region, Uganda"
-    },
     {
       "name": "T-Systems on site services GmbH",
       "position": "Solutions Architect",
@@ -37,7 +39,8 @@
       "highlights": [],
       "summary": "Project scope: Automated detection of drones in high-security areas such as airports and stadiums.\n\nResponsibilities: \n• Overall responsibility for the software and platform architecture\n• Requirements engineering (e.g. for integration into C2-systems)\n• Quality assurance (in particular security/penetration testing)\n• Accompanying the internal privacy & security audit (PSA) process\n• Design of an architecture for low latency data streaming (edge computing)",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
+      "location": "Stuttgart, Baden-Württemberg, Germany",
+      "keywords":[]
     },
     {
       "name": "T-Systems on site services GmbH",
@@ -56,7 +59,7 @@
       "highlights": [],
       "summary": "Scope: Introduction to programming and data analyses for students with technical and none-technical backgrounds.\n\nResponsibilities:\n• Introduction to data structures and procedures\n• Hands-on software development\n• Software quality attributes (focused on maintainability and modifiability with the concepts of loose coupling and cohesion)\n• Concepts of Software Engineering (requirements engineering, development methods, black-box testing, and in-code documentation)\n• User experience design (focused on customer value and exception handling)\n\nVolume: 30 hours per Semester",
       "url": "https://www.linkedin.com/company/reutlingen-university/",
-      "location": "Reutlingen, Baden-Württemberg, Deutschland"
+      "location": "Reutlingen, Baden-Württemberg, Germany"
     },
     {
       "name": "T-Systems on site services GmbH",
@@ -66,7 +69,7 @@
       "highlights": [],
       "summary": "Scope: Development and execution of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Analyzing existing synchronous (SOAP, CICS, IMS, SFTP) and asynchronous (IBM MQ, ActiveMQ) system interfaces, as well as middleware components (DB2, Java Native Interface, WebSphere)\n• Re-architecting of high demand system modules by decoupling interfaces from the application core based on the dependency inversion principle (Clean Architecture) to achieve modifiability and scalability\n• Standardizing interfaces based on the technologies REST, and Apache Kafka\n• Design and implement an event-based data streaming of business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Sub-project management and team coordination (local, nearshore, and offshore)\n\n\nFor more details, request the project journal.",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+      "location": "Stuttgart, Baden-Württemberg, Germany"
     },
     {
       "name": "T-Systems on site services GmbH",
@@ -76,13 +79,13 @@
       "highlights": [],
       "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Development of scalable and maintainable RESTful services\n• Test automation \n• Creation of business objects with Apache Spark\n• Asynchronous data provision with Apache Kafka\n• Setting up fully automated monitoring with business-specific monitoring metrics \n• Setting up a fully automated CI / CD pipeline with corresponding quality gateways and GitSecOps mechanisms.",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Deutschland"
+      "location": "Stuttgart, Baden-Württemberg, Germany"
     },
     {
       "name": "Biberacher IT-Solutions",
       "position": "Freelance Software Engineer",
       "startDate": "2017-04-30",
-      "endDate": "2025-01-01",
+      "endDate": "2019-10-01",
       "highlights": [],
       "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs.\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data entry steps.\n• Consultation for ERP systems for medium-sized practices and laboratories.\n\nProject #2: Real estate market\nProject Scope: Identification of historically undervalued commercial properties\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting with Prometheus and Grafana\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Creating a website for ticket sales for community events with Angular\n• Creating websites with a focus on ease of use and low maintenance with WordPress",
       "location": "Region Stuttgart"
@@ -95,7 +98,7 @@
       "highlights": [],
       "summary": "Scope: IT security in microservice-based systems: From monolith to a secure cloud-native application\n\nTasks:\n• Migration of an existing Java EE based IoT integration platform to Java Spring\n• Development of a microservice reference architecture with focus on scalability and cybersecurity\n• Security Audit based on NIST CSF and ISO/IEC 27001\n• Implementation of a deployment pipeline to several cloud vendors (Cloud Foundry, AWS, MS Azure)",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
-      "location": "Stuttgart und Umgebung, Deutschland"
+      "location": "Stuttgart, Baden-Württemberg, Germany"
     },
     {
       "name": "Automotive Lighting",
@@ -105,7 +108,7 @@
       "highlights": [],
       "summary": "Scope: Modernization and extension of a product configurator for control unit platforms.\n\nTasks:\n• Designing an open-source modernization strategy for a Microsoft Access-based application with Visual Basic frontend\n• Migrating the application to Java Spring, Thymeleaf (including jQuery and Bootstrap), and PostgreSQL\n• Integration of a process engine (BPMN, DMN)\n• System documentation with arc42",
       "url": "https://www.linkedin.com/company/marelligroup/",
-      "location": "Reutlingen und Umgebung, Deutschland"
+      "location": "Reutlingen, Baden-Württemberg, Germany"
     },
     {
       "name": "Braincourt GmbH",
@@ -114,7 +117,7 @@
       "endDate": "2017-03-31",
       "highlights": [],
       "summary": "Scope: Predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nTasks:\n• Developing a business case\n• Data collection from manufacturing execution systems (MES)\n• Designing a reference architecture for data stream analysis for predictive quality measures\n• Implementing software for predictive analysis and real-time visualization of data streams using Hadoop, Spark, and Tableau\n• Configuring a Spark cluster in AWS",
-      "location": "Stuttgart und Umgebung, Deutschland"
+      "location": "Stuttgart, Baden-Württemberg, Germany"
     },
     {
       "name": "Robert Bosch GmbH",
@@ -124,36 +127,50 @@
       "highlights": [],
       "summary": "Scope: Predictive Analytics for electronic end measurement methods of air pressure sensors.\n\nTasks:\n• Automated data export from manufacturing systems\n• Data cleaning with Python (Pandas and NumPy)\n• Creating a prediction model\n• Automated data visualization with Tableau, MatLab, and Excel\n• Web Development",
       "url": "https://www.linkedin.com/company/bosch/",
-      "location": "Reutlingen und Umgebung, Deutschland"
+      "location": "Reutlingen, Baden-Württemberg, Germany"
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "Groundbreaker",
+      "position": "Mentor",
+      "startDate": "2024-04-30",
+      "highlights": [],
+      "summary": "Volunteer mentor at Groundbreaker gGmbH's mentoring program for women in tech.\nThe one-year mentoring program aims to provide career starters with the tools they need to enter the world of software engineering. \n\nResponsibilities:\n• Weekly mentoring sessions\n• Software engineering basic and advanced concepts\n• Career development paths\n• Methods for independent knowledge acquisition (lifelong learning)\n• Pair Programming\n• Workshops",
+      "url": "https://www.linkedin.com/company/be-a-groundbreaker/",
+      "location": "Kampala, Central Region, Uganda"
+    }
+  ],
   "education": [
     {
-      "institution": "Hochschule Reutlingen",
-      "area": "Wirtschaftsinformatik",
-      "studyType": "Master of Science - MS",
+      "institution": "Reutlingen University",
+      "url": "https://www.inf.reutlingen-university.de/studium/bachelor/wirtschaftsinformatik",
+      "area": "Business Informatics",
+      "studyType": "Master of Science - M.Sc.",
       "startDate": "2017-12-31",
       "endDate": "2019-12-31",
       "score": "1,2",
+      "gpa": "score: 1,2",
       "courses": []
     },
     {
-      "institution": "Hochschule Reutlingen",
-      "area": "Wirtschaftsinformatik",
-      "studyType": "Bachelor of Science - BS",
+      "institution": "Reutlingen University",
+      "url": "https://www.inf.reutlingen-university.de/studium/master/wirtschaftsinformatik-wim",
+      "area": "Business Informatics",
+      "studyType": "Bachelor of Science - B.Sc.",
       "startDate": "2014-12-31",
       "endDate": "2017-12-31",
       "score": "1,8",
+      "gpa": "score: 1,8",
       "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Best Graduation Master of class Business Informatics Summer Semester 2019",
+      "title": "Best Graduate Business Informatics M.Sc.",
       "date": "2019-10-31",
       "awarder": "Reutlingen University",
-      "summary": ""
+      "summary": "Best Graduate of class Business Informatics M.Sc. 2019 at Reutlingen University"
     },
     {
       "title": "MHP university award for innovative research",
@@ -170,388 +187,338 @@
   ],
   "certificates": [
     {
+      "name": "Data Analyzes and Visualization with LLMs",
+      "issuer": "T-Systems on site services GmbH",
+      "date": "2024-07-31",
+      "url": "https://www.t-systems-onsite.de/trainings/datenanalyse-und-visualisierungen-mit-ki-chatbots-effektiv-nutzen/"
+    },
+    {
       "name": "AWS Certified Solutions Architect – Associate",
       "issuer": "Amazon Web Services (AWS)",
-      "endDate": "2027-04-30",
-      "startDate": "2024-04-30",
+      "date": "2024-04-30",
       "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/9563fa3c4f6d40c6b963ec32b16d37a3"
     },
     {
       "name": "Linux Essentials Certification",
       "issuer": "Linux Professional Institute (LPI)",
-      "startDate": "2024-01-31",
+      "date": "2024-01-31",
       "url": "http://lpi.org/v/LPI000584500/uxmdtn9p4b"
     },
     {
       "name": "Security Essentials Certification (020-100)",
       "issuer": "Linux Professional Institute (LPI)",
-      "startDate": "2024-01-31",
+      "date": "2024-01-31",
       "url": "http://lpi.org/v/LPI000584500/ujdruhenvs"
     },
     {
       "name": "Prompt Engineering for Developers",
       "issuer": "DeepLearning.AI",
-      "startDate": "2023-08-31",
+      "date": "2023-08-31",
       "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
     },
     {
       "name": "CompTIA Security+",
       "issuer": "CompTIA",
-      "startDate": "2023-07-31"
+      "date": "2023-07-31",
+      "url": "https://www.comptia.org/de/zertifizierungen/security"
     },
     {
       "name": "LevelUp! leadFIRST",
       "issuer": "Deutsche Telekom",
-      "startDate": "2023-05-31",
+      "date": "2023-05-31",
       "url": "https://www.telekom.com/en/careers/your-professional-career/development-for-leaders"
     },
     {
       "name": "The Open Group Certified Architect",
       "issuer": "The Open Group",
-      "startDate": "2023-05-31",
+      "date": "2023-05-31",
       "url": "https://www.credly.com/badges/d46e12cb-09f8-4ede-a6f2-9a115c432781/public_url"
-    },
-    {
-      "name": "Brandschutzhelfer",
-      "issuer": "BAD GmbH",
-      "startDate": "2023-04-30",
-      "url": "https://www.bad-gmbh.de/veranstaltungen/ausbildung-zum-brandschutzhelfer-4923/"
     },
     {
       "name": "Telekom Security & Privacy Champion",
       "issuer": "Deutsche Telekom",
-      "startDate": "2023-04-30",
+      "date": "2023-04-30",
       "url": "https://www.telekom.com/resource/blob/622936/14d5801a145ff4feb2bd97543abca6c3/dl-psa-booklet-en-data.pdf"
     },
     {
       "name": "Professional Scrum Product Owner™ II (PSPO II)",
       "issuer": "Scrum.org",
-      "startDate": "2022-09-30",
+      "date": "2022-09-30",
       "url": "https://www.scrum.org/certificates/855043"
     },
     {
       "name": "Professional Cloud Architect",
       "issuer": "Google",
-      "endDate": "2024-08-31",
-      "startDate": "2022-08-31",
+      "date": "2022-08-31",
       "url": "https://www.credential.net/5e873e8d-e0ae-4265-a2be-bec8705c9c32"
     },
     {
       "name": "LevelUp! Next Generation",
       "issuer": "Deutsche Telekom",
-      "startDate": "2021-12-31",
+      "date": "2021-12-31",
       "url": "https://www.detecon.com/de/level-leading-agile"
     },
     {
       "name": "Professional Scrum Master™ II (PSM II)",
       "issuer": "Scrum.org",
-      "startDate": "2021-09-30",
+      "date": "2021-09-30",
       "url": "https://www.scrum.org/user/652855"
     },
     {
       "name": "Data-driven improvement of software quality",
       "issuer": "INNOQ",
-      "startDate": "2021-07-31",
+      "date": "2021-07-31",
       "url": "https://www.innoq.com/en/trainings/software-analytics/"
     },
     {
       "name": "CKAD: Certified Kubernetes Application Developer",
       "issuer": "The Linux Foundation",
-      "endDate": "2024-05-31",
-      "startDate": "2021-05-31",
+      "date": "2021-05-31",
       "url": "https://training.linuxfoundation.org/certification/verify/"
     },
     {
       "name": "iSAQB Certified Professional for Software Architecture (CPSA) - F",
       "issuer": "Certible",
-      "startDate": "2021-02-28",
+      "date": "2021-02-28",
       "url": "https://www.certible.com/de/verify/cb220b7c2baaff694ccba5cc54713a4f"
     },
     {
       "name": "ITIL v4",
       "issuer": "AXELOS Global Best Practice",
-      "startDate": "2020-12-31",
+      "date": "2020-12-31",
       "url": "https://fa-axelos-prod-ukw.azurewebsites.net/api/scr/?surname=Biberacher&scheme=ITIL+4"
     },
     {
       "name": "Didactic basic course for lecturers at universities  (\"Hochschuldidaktischer Basiskurs für Lehrbeauftragte\")",
       "issuer": "Land Baden-Württemberg",
-      "startDate": "2020-07-31",
+      "date": "2020-07-31",
       "url": "https://www.hochschuldidaktik.net/fortbildungen/baden-wuerttemberg-zertifikat-fuer-hochschuldidaktik"
-    },
-    {
-      "name": "Professional Scrum Master PSM1",
-      "issuer": "Scrum.org",
-      "startDate": "2020-04-30",
-      "url": "https://www.scrum.org/certificates/522926"
     },
     {
       "name": "Ethikum",
       "issuer": "Referat für Technik- und Wirtschaftsethik (RTWE)",
-      "startDate": "2015-06-30",
+      "date": "2015-06-30",
       "url": "http://rtwe.de/ethikum.html"
     }
   ],
   "publications": [],
   "skills": [
     {
-      "name": "Service Delivery Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Customer Relationship Management (CRM)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Presales",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Legacy Modernization",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C-Level Consulting",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Mesh",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Public Sector",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Domain-Driven Design (DDD)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Clean Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Agile Methodologies",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "University Teaching",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Teaching",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Security",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Internet of Things (IoT)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python (Programming Language)",
-      "level": "",
-      "keywords": []
+      "name": "IT Architecture",
+      "level": "Master",
+      "keywords": [
+        "Legacy Modernization",
+        "Domain-Driven Design (DDD)",
+        "Clean Architecture",
+        "Cloud Computing",
+        "Infrastructure as code (IaC)",
+        "Monoliths",
+        "Service-oriented Architecture (SOA)",
+        "Microservices",
+        "Cybersecurity",
+        "Identity & Access Management (IAM)",
+        "Network Architecture"
+      ]
     },
     {
       "name": "Software Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Social Engagement",
-      "level": "",
-      "keywords": []
+      "level": "Advanced",
+      "keywords": [
+        "Object oriented Programming (OOP)",
+        "Java",
+        "Python",
+        "DevSecOps", 
+        "REST-API",
+        "SOAP",
+        "GraphQL", 
+        "Websocket",
+        "Message Ques",
+        "Relational Databases",
+        "NoSQL-Databases",
+        "OWASP Top 10",
+        "RBAC"
+      ]
     },
     {
       "name": "Data Engineering",
-      "level": "",
-      "keywords": []
+      "level": "Advanced",
+      "keywords": [
+        "Data Mesh",
+        "ETL-Processes",
+        "Data Visualization",
+        "Data Analysis",
+        "Big Data Analyzes"
+      ]
     },
     {
-      "name": "GraphQL",
-      "level": "",
-      "keywords": []
+      "name": "People Lead",
+      "level": "Advanced",
+      "keywords": [
+        "Coaching & Mentoring",
+        "Teaching",
+        "University Lecturing",
+        "Leadership"
+        
+      ]
     },
     {
-      "name": "DevOps",
-      "level": "",
-      "keywords": []
+      "name": "Project Management",
+      "level": "Intermediate",
+      "keywords": [
+        "Agile Methodologies",
+        "Service Delivery Management",
+        "Requirements Analysis"
+      ]
     },
     {
-      "name": "REST-API",
-      "level": "",
-      "keywords": []
+      "name": "Sales & Accounting",
+      "level": "Intermediate",
+      "keywords": [
+        "Presales",
+        "Customer Relationship Management (CRM)",
+        "C-Level Consulting",
+        "Management Consulting"
+      ]
     },
     {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
+      "name": "Sectors",
+      "level": "Intermediate",
+      "keywords": [
+        "Automotive",
+        "Manufacturing",
+        "Public Sector",
+        "Finance",
+        "Healthcare"
+      ]
     },
     {
-      "name": "University Lecturing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Infrastructure as code (IaC)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Apache Hadoop",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Manufacturing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Coaching & Mentoring",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Software Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Amazon Web Services (AWS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Communication",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cybersecurity",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Management Consulting",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Healthcare",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Visualization",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cloud Computing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Sales",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Leadership",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Requirements Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Azure",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Terraform",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Cloud Platform (GCP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DevSecOps",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Automotive",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Big Data Analytics",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Finance",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Objektorientierte Programmierung (OOP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Softwarearchitektur",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Agile Methoden",
-      "level": "",
-      "keywords": []
+      "name": "Technologies/Tools",
+      "level": "Proficient",
+      "keywords": [
+        "Spring Boot/Cloud/Data/Security",
+        "Django",
+        "Apache Spark",
+        "Apache Hadoop",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "MatLab",
+        "Tableau",
+        "PowerBI",
+        "Kubernetes",
+        "Cilium",
+        "containerd",
+        "Docker",
+        "Podman",
+        "Istio",
+        "Helm",
+        "Open Policy Agent (OPA)",
+        "FluxCD",
+        "Cert Manager",
+        "Knative",
+        "Victoria Metrics",
+        "Grafana",
+        "Prometheus",
+        "Jaeger",
+        "OpenTelemetry",
+        "Logstash",
+        "Elasticsearch",
+        "Kibana",
+        "IBM MQ",
+        "Apache Kafka",
+        "Java Message Service (JMS)",
+        "IBM DB2",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle DB",
+        "Apache Cassandra",
+        "Mongo DB",
+        "Redis",
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure", 
+        "Google Cloud Platform (GCP)", 
+        "Terraform",
+        "Ansible",
+        "OAuth2",
+        "OIDC",
+        "Keycloak",
+        "TLS/SSL",
+        "Linux",
+        "arc42",
+        "C4-Model",
+        "OWASP ZAP",
+        "JMeter",
+        "Gatling",
+        "Pact"
+      ]
     }
   ],
   "languages": [
     {
-      "language": "de",
-      "fluency": "Native Speaker"
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Gym",
+        "Handball",
+        "Rugby",
+        "eSports"
+      ]
+    },
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Canoeing",
+        "Hiking",
+        "Camping"
+      ]
+    },
+    {
+      "name": "Culture / History",
+      "keywords": [
+        "German",
+        "USA",
+        "Spain",       
+        "Romania",
+        "India",
+        "Brazil",
+        "South-East-Asia"
+      ]
+    },
+    {
+      "name": "Open Source Communities",
+      "keywords": [
+        "CCC",
+        "Netzpolitik.org",
+        "User Groups & Meetups",
+        "Podcasts"
+      ]
+    },
+    {
+      "name": "Macroeconomics",
+      "keywords": [
+        "Monetary policy",
+        "Financial Markets",
+        "Geopolitics"
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Edison de Azevedo Filho",
@@ -570,7 +537,46 @@
       "reference": "Andreas is an experienced cloud architect and is always there to help or respond to any question anyone might have, has a good team spirit and he is always looking for improvements or updates. \nIt was a pleasure working with you :)"
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Self-contained Homelab (Private)",
+      "startDate": "2021-01-06",
+      "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates on the OS and Kubernetes level",
+      "highlights": [
+        "Kubernetes (k3s)",
+        "Fedora CoreOS",
+        "Infrastructure as Code (IaC)",
+        "Monitoring",
+        "GitOps",
+        "Automated Updates",
+        "Cybersecurity"
+      ],
+      "url": "https://github.com/bibAtWork/Edge_GitOps"
+    },
+    {
+      "name": "Kafka Cluster (Private)",
+      "startDate": "2022-05-01",
+      "endDate": "2023-08-01",
+      "description": "Containerized Kafka Cluster with UI for tryouts during the development process",
+      "highlights": [
+        "Apache Kafka",
+        "Container",
+        "SAML Authentication",
+        "Monitoring"
+      ],
+      "url": "https://github.com/bibAtWork/KafkaCluster/"
+    },
+    {
+      "name": "Java and Python Project Blueprints (Private)",
+      "startDate": "2023-01-01",
+      "description": "Repository template for Java and Python code. Contains structure, build, and testing best practices.",
+      "highlights": [
+        "Java",
+        "Python"
+      ],
+      "url": "https://github.com/bibAtdev/GitOps/"
+    }
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
