@@ -150,7 +150,7 @@
       "startDate": "2017-12-31",
       "endDate": "2019-12-31",
       "score": "1,2",
-      "gpa": "score: 1,2",
+      "gpa": "final grade: 1,2",
       "courses": []
     },
     {
@@ -161,7 +161,7 @@
       "startDate": "2014-12-31",
       "endDate": "2017-12-31",
       "score": "1,8",
-      "gpa": "score: 1,8",
+      "gpa": "final grade: 1,8",
       "courses": []
     }
   ],
@@ -186,6 +186,12 @@
     }
   ],
   "certificates": [
+    {
+      "name": "TOGAF® Certification",
+      "issuer": "The Open Group",
+      "date": "2024-10-14",
+      "url": "https://www.opengroup.org/togaf"
+    },
     {
       "name": "Data Analyzes and Visualization with LLMs",
       "issuer": "T-Systems on site services GmbH",
@@ -522,19 +528,15 @@
   "references": [
     {
       "name": "Edison de Azevedo Filho",
-      "reference": "Andreas was the Product Owner and Architect for a project we worked on together. I had excellent experiences with Agile processes, and autonomy to manage activities, we experienced many processes running in Agile methodology. He provided an excellent working environment and was always available to help the team. As an architect, he designed an architecture for a new system that was extremely modern, and despite the complexity of the project, he managed to make it easy to understand, as there was documentation of all points, in addition to constant architecture meetings with the team with to discuss improvements."
+      "reference": "Andreas was the Product Owner and Architect for a project we worked on together. I had excellent experiences with Agile processes, and autonomy to manage activities, we experienced many processes running in Agile methodology. He provided an excellent working environment [...]. As an architect, he designed an architecture for a new system that was extremely modern, and despite the complexity of the project, he managed to make it easy to understand, as there was documentation of all points, in addition to constant architecture meetings with the team to discuss improvements."
     },
     {
       "name": "Santana, Micael",
-      "reference": "Andreas is a true asset to any team. He brings a wealth of knowledge and expertise in cloud architecture, and is always eager to lend a hand and share his insights. Beyond his technical skills, Andreas has a deep commitment to collaboration and teamwork, making him an valuable partner in any project. He is also dedicated to staying current with the latest advancements and trends in his field, ensuring that he is always at the forefront of innovation. It was a privilege to work alongside someone of Andreas' caliber, and I feel honored to have had the opportunity to learn from him and benefit from his contributions."
+      "reference": "Andreas is a true asset to any team. He brings a wealth of knowledge and expertise in cloud architecture, and is always eager to lend a hand and share his insights. Beyond his technical skills, Andreas has a deep commitment to collaboration and teamwork, making him an valuable partner in any project. He is also dedicated to staying current with the latest advancements and trends in his field, ensuring that he is always at the forefront of innovation. [...]"
     },
     {
       "name": "Anamaria Onaciu",
       "reference": "During the time we worked together, I learned the following things from Andreas. Things that are very important for a good team leader and a \"healthy\" team : \n- he knows very well the technical aspects, and this is very useful for the team and for the project\n- he doesn’t say YES to each request from the team. He analyses together with the team members the best solution for them and for the project.\n- he has a lot of patience\n- he has a respectful attitude towards all team members\n- he creates a favourable climate for the team to develop professionally and not to be afraid to ask questions or to say, \"I don't know\".\n- he blocks the pressure from the client and other aspects / discussions which are not productive and should not be felt / reach by the team.\n- he asks the team to make some decisions\n- he discusses the real things for improvement to retrospective in a professional way\n- he always comes with things to be improved and this helps to grow up the team"
-    },
-    {
-      "name": "Monica Dogaru",
-      "reference": "Andreas is an experienced cloud architect and is always there to help or respond to any question anyone might have, has a good team spirit and he is always looking for improvements or updates. \nIt was a pleasure working with you :)"
     }
   ],
   "projects": [
