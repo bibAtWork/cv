@@ -1,6 +1,6 @@
 # CV Builder
 
-This repository helps to automatically build a professionally looking CV, without the formatting  hassle.
+This repository helps to automatically build a professionally looking CV, without the formatting hassle.
 
 **Key features**
 
@@ -21,9 +21,11 @@ This repository helps to automatically build a professionally looking CV, withou
 3. Choose theme you want to use from the [Themes Registry](https://jsonresume.org/themes). Install the theme with the following command:<br>
 `npm install -g jsonresume-theme-elegant`
 4. Verify your json file with:<br>
-`resumed validate`
+`resumed validate src/main/resources/resume.json`
 5. Create your resume with:<br>
 `resumed export src/main/resources/resume.json --theme jsonresume-theme-elegant --output target/resumejson/resume.html`
+6. (Optional) Export your resume as [pdf](https://stackoverflow.com/questions/57372555/how-can-i-download-my-json-resume-as-pdf-on-my-gist) with
+`resume export --resume src/main/resources/resume.json --theme jsonresume-theme-elegant --format pdf target/resumejson/resume.pdf`
 
 **last tested with the following component versions:**
 
@@ -45,6 +47,10 @@ This repository helps to automatically build a professionally looking CV, withou
 - attributes in resume.json must be filled or removed, a key with an empty value (e.g. "" or null) is not allowed
 - the elegant theme does not support the attribute "image", instead it uses "picture" \(see [Issue 149](https://github.com/mudassir0909/jsonresume-theme-elegant/issues/149), [Issue 158](https://github.com/mudassir0909/jsonresume-theme-elegant/issues/158))
 - to include local images they must be referenced as relative path with  "http://" prefix \(see [Issue 258](https://github.com/jsonresume/resume-cli/issues/258)). As an alternative, you can upload your images to a publicly available hosting service (e.g., GitHub) and reference them with their URL.
+- Exporting your CV as PDF leads to not so nice page breaks, this is caused by the HTML to PDF conversion. Multiple solutions have been discussed ([Issue-385](https://github.com/jsonresume/resume-cli/issues/385), [Issue-413](https://github.com/jsonresume/resume-cli/issues/413#issuecomment-750454100)), but no satisfying solution has been found yet.
+
+## ToDo's
+* Configure automatic rendering and pdf export with resumd-cli (see [here](https://github.com/rbardini/resumed/tree/main/examples/with-pdf-export))
 
 ## Ideas
 

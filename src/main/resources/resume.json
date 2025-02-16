@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andreas Biberacher",
-    "label": "Swiss Army Knife for Software Engineering || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
-    "image": "http://localhost:52330/src/main/resources/img/profile.JPEG",
-    "picture": "http://localhost:52330/src/main/resources/img/profile.JPEG",
+    "label": "Bridge between Business and IT || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
+    "image": "https://avatars.githubusercontent.com/u/57631430?v=4",
+    "picture": "https://avatars.githubusercontent.com/u/57631430?v=4",
     "email": "andreas-biberacher@gmx.de",
     "phone": "+49 177 4330306",
-    "summary": "I'm a passionate Tech Lead specializing in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in agile team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities, etc.), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can work together.",
+    "summary": "I'm a passionate Tech Lead with a broad knowledge in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can Let's connect and explore ways we can prosper together.",
     "location": {
       "countryCode": "DE",
       "city": "Stuttgart",
@@ -33,6 +33,7 @@
   },
   "work": [
     {
+      "breakBefore": true,
       "name": "T-Systems on site services GmbH",
       "position": "Solutions Architect",
       "startDate": "2023-07-31",
@@ -67,7 +68,7 @@
       "startDate": "2020-03-31",
       "endDate": "2024-02-28",
       "highlights": [],
-      "summary": "Scope: Development and execution of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Analyzing existing synchronous (SOAP, CICS, IMS, SFTP) and asynchronous (IBM MQ, ActiveMQ) system interfaces, as well as middleware components (DB2, Java Native Interface, WebSphere)\n• Re-architecting of high demand system modules by decoupling interfaces from the application core based on the dependency inversion principle (Clean Architecture) to achieve modifiability and scalability\n• Standardizing interfaces based on the technologies REST, and Apache Kafka\n• Design and implement an event-based data streaming of business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Sub-project management and team coordination (local, nearshore, and offshore)\n\n\nFor more details, request the project journal.",
+      "summary": "Scope: Design and execution of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Analyzing existing synchronous (SOAP, CICS, IMS, SFTP) and asynchronous (IBM MQ, ActiveMQ) system interfaces, as well as middleware components (DB2, Java Native Interface, WebSphere)\n• Re-architecting of high demand system modules by decoupling interfaces from the application core based on the dependency inversion principle to achieve modifiability and scalability\n• Standardizing interfaces based on the technologies REST, and Apache Kafka\n• Design and implement an event-based data streaming of business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Sub-project management and team coordination (local, nearshore, and offshore)",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
       "location": "Stuttgart, Baden-Württemberg, Germany"
     },
@@ -120,6 +121,7 @@
       "location": "Stuttgart, Baden-Württemberg, Germany"
     },
     {
+      "breakBefore": true,
       "name": "Robert Bosch GmbH",
       "position": "Working Student",
       "startDate": "2014-10-31",
@@ -211,7 +213,7 @@
       "url": "http://lpi.org/v/LPI000584500/uxmdtn9p4b"
     },
     {
-      "name": "Security Essentials Certification (020-100)",
+      "name": "Security Essentials Certification",
       "issuer": "Linux Professional Institute (LPI)",
       "date": "2024-01-31",
       "url": "http://lpi.org/v/LPI000584500/ujdruhenvs"
@@ -241,12 +243,6 @@
       "url": "https://www.credly.com/badges/d46e12cb-09f8-4ede-a6f2-9a115c432781/public_url"
     },
     {
-      "name": "Telekom Security & Privacy Champion",
-      "issuer": "Deutsche Telekom",
-      "date": "2023-04-30",
-      "url": "https://www.telekom.com/resource/blob/622936/14d5801a145ff4feb2bd97543abca6c3/dl-psa-booklet-en-data.pdf"
-    },
-    {
       "name": "Professional Scrum Product Owner™ II (PSPO II)",
       "issuer": "Scrum.org",
       "date": "2022-09-30",
@@ -256,19 +252,7 @@
       "name": "Professional Cloud Architect",
       "issuer": "Google",
       "date": "2022-08-31",
-      "url": "https://www.credential.net/5e873e8d-e0ae-4265-a2be-bec8705c9c32"
-    },
-    {
-      "name": "LevelUp! Next Generation",
-      "issuer": "Deutsche Telekom",
-      "date": "2021-12-31",
-      "url": "https://www.detecon.com/de/level-leading-agile"
-    },
-    {
-      "name": "Professional Scrum Master™ II (PSM II)",
-      "issuer": "Scrum.org",
-      "date": "2021-09-30",
-      "url": "https://www.scrum.org/user/652855"
+      "url": "https://www.credly.com/badges/1a9d2f84-78ff-4725-803c-d1bb25c727c2"
     },
     {
       "name": "Data-driven improvement of software quality",
@@ -295,12 +279,6 @@
       "url": "https://fa-axelos-prod-ukw.azurewebsites.net/api/scr/?surname=Biberacher&scheme=ITIL+4"
     },
     {
-      "name": "Didactic basic course for lecturers at universities  (\"Hochschuldidaktischer Basiskurs für Lehrbeauftragte\")",
-      "issuer": "Land Baden-Württemberg",
-      "date": "2020-07-31",
-      "url": "https://www.hochschuldidaktik.net/fortbildungen/baden-wuerttemberg-zertifikat-fuer-hochschuldidaktik"
-    },
-    {
       "name": "Ethikum",
       "issuer": "Referat für Technik- und Wirtschaftsethik (RTWE)",
       "date": "2015-06-30",
@@ -313,28 +291,28 @@
       "name": "IT Architecture",
       "level": "Master",
       "keywords": [
-        "Legacy Modernization",
-        "Domain-Driven Design (DDD)",
-        "Clean Architecture",
+        "IT Strategy Consulting",
         "Cloud Computing",
-        "Infrastructure as code (IaC)",
-        "Monoliths",
+        "Legacy Modernization",
         "Service-oriented Architecture (SOA)",
-        "Microservices",
+        "Data Mesh",
+        "Data Governance",
+        "Risk Assessment",
+        "Regulatory Compliance",
         "Cybersecurity",
         "Identity & Access Management (IAM)",
-        "Network Architecture"
+        "Network & Storage Architecture"
       ]
     },
     {
       "name": "Software Development",
       "level": "Advanced",
       "keywords": [
-        "Object oriented Programming (OOP)",
+        "Object-oriented Programming (OOP)",
         "Java",
         "Python",
         "DevSecOps", 
-        "REST-API",
+        "REST",
         "SOAP",
         "GraphQL", 
         "Websocket",
@@ -342,6 +320,7 @@
         "Relational Databases",
         "NoSQL-Databases",
         "OWASP Top 10",
+        "Test Driven Development (TDD)",
         "RBAC"
       ]
     },
@@ -349,41 +328,48 @@
       "name": "Data Engineering",
       "level": "Advanced",
       "keywords": [
-        "Data Mesh",
-        "ETL-Processes",
+        "Data Modeling",
+        "ETL/ELT-Processes",
+        "Data Querying (SQL and NoSQL)",
+        "Big Data Technologies",
         "Data Visualization",
-        "Data Analysis",
-        "Big Data Analyzes"
+        "Data Analyzes",
+        "Event Streaming"
       ]
     },
     {
       "name": "People Lead",
       "level": "Advanced",
       "keywords": [
+        "Entrepreneurship",
         "Coaching & Mentoring",
-        "Teaching",
-        "University Lecturing",
-        "Leadership"
-        
+        "Employee Development",
+        "Conflict Resolution",
+        "Strategy Communication",
+        "Team Motivation"        
       ]
     },
     {
       "name": "Project Management",
       "level": "Intermediate",
       "keywords": [
-        "Agile Methodologies",
+        "Requirements Analysis",
+        "Planning & Execution",
+        "Monitoring & Adoption",
         "Service Delivery Management",
-        "Requirements Analysis"
+        "Budget & Resource Allocation"
       ]
     },
     {
-      "name": "Sales & Accounting",
+      "name": "Sales & Account Management",
       "level": "Intermediate",
       "keywords": [
-        "Presales",
+        "Pre-Sale",
+        "C-Level Communication",
         "Customer Relationship Management (CRM)",
-        "C-Level Consulting",
-        "Management Consulting"
+        "Cloud Migration Solutions",
+        "Developing Pricing Models",
+        "Market Research"
       ]
     },
     {
@@ -401,6 +387,13 @@
       "name": "Technologies/Tools",
       "level": "Proficient",
       "keywords": [
+        "Monoliths",
+        "Microservices",
+        "Domain-Driven Design (DDD)",
+        "Clean Architecture",
+        "Infrastructure as code (IaC)",
+        "ISO/IEC 27001", 
+        "BSI-Grundschutz",
         "Spring Boot/Cloud/Data/Security",
         "Django",
         "Apache Spark",
@@ -471,40 +464,34 @@
     {
       "language": "Spanish",
       "fluency": "Intermediate"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Beginner"
     }
   ],
   "interests": [
     {
       "name": "Sport",
       "keywords": [
-        "Gym",
-        "Handball",
-        "Rugby",
-        "eSports"
+        "Fitness",
+        "Bouldering",
+        "Handball"  
       ]
     },
     {
       "name": "Wildlife",
       "keywords": [
-        "Canoeing",
         "Hiking",
-        "Camping"
+        "Camping",
+        "Canoeing"
       ]
     },
     {
       "name": "Culture / History",
       "keywords": [
-        "German",
+        "South-East-Asia",
+        "India",
         "USA",
         "Spain",       
         "Romania",
-        "India",
-        "Brazil",
-        "South-East-Asia"
+        "Brazil"
       ]
     },
     {
@@ -513,6 +500,7 @@
         "CCC",
         "Netzpolitik.org",
         "User Groups & Meetups",
+        "Mentoring and Teaching",
         "Podcasts"
       ]
     },
@@ -546,7 +534,7 @@
       "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates on the OS and Kubernetes level",
       "highlights": [
         "Kubernetes (k3s)",
-        "Fedora CoreOS",
+        "Rancher",
         "Infrastructure as Code (IaC)",
         "Monitoring",
         "GitOps",
@@ -569,14 +557,17 @@
       "url": "https://github.com/bibAtWork/KafkaCluster/"
     },
     {
-      "name": "Java and Python Project Blueprints (Private)",
-      "startDate": "2023-01-01",
-      "description": "Repository template for Java and Python code. Contains structure, build, and testing best practices.",
+      "name": "Book Summarizer",
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "description": "Local LLM with RAG to summarize books and extract key ideas of the author",
       "highlights": [
-        "Java",
-        "Python"
+        "Python",
+        "Ollama",
+        "LangChain",
+        "ChromaDB"
       ],
-      "url": "https://github.com/bibAtdev/GitOps/"
+      "url": "https://hackernoon.com/a-tutorial-on-how-to-build-your-own-rag-and-how-to-run-it-locally-langchain-ollama-streamlit"
     }
   ],
   "meta": {
