@@ -7,7 +7,7 @@
     "picture": "https://avatars.githubusercontent.com/u/57631430?v=4",
     "email": "andreas-biberacher@gmx.de",
     "phone": "+49 177 4330306",
-    "summary": "I'm a passionate Tech Lead with a broad knowledge in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can Let's connect and explore ways we can prosper together.",
+    "summary": "I'm a passionate Tech Lead with broad knowledge in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can Let's connect and explore ways we can prosper together.",
     "location": {
       "countryCode": "DE",
       "city": "Stuttgart",
@@ -38,29 +38,18 @@
       "position": "Solutions Architect",
       "startDate": "2023-07-31",
       "highlights": [],
-      "summary": "Project scope: Automated detection of drones in high-security areas such as airports and stadiums.\n\nResponsibilities: \n• Overall responsibility for the software and platform architecture\n• Requirements engineering (e.g. for integration into C2-systems)\n• Quality assurance (in particular security/penetration testing)\n• Accompanying the internal privacy & security audit (PSA) process\n• Design of an architecture for low latency data streaming (edge computing)",
+      "summary": "Scope: Integrating of an IoT system for automated drone detection and pilot localization for KRITIS infrastructure\nSector: Public & Defence\n\nMain Responsibilities: \n• Overall responsibility for the software and platform architecture with a focus on low latency data streaming\n• Quality assurance (privacy & security audits, integration testing, regulatory compliance)\n• Presales and face to the customer for technical topics\n\nTech Stack: Websocket, Edge Computing, C2-integration, IoT, RF, 5G, DevSecOps",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Germany",
-      "keywords":[]
+      "location": "Stuttgart, Germany"
     },
     {
       "name": "T-Systems on site services GmbH",
       "position": "Chapter Lead",
       "startDate": "2023-01-31",
       "highlights": [],
-      "summary": "Scope: Building a self-contained team that brings all skills to build reliable, secure, and scalable software in the context of cloud computing.\n\nResponsibilities:\n• Chapter Lead of ~15 Developers and Cloud Consultants\n• Development and execution of a go-to-market strategy\n• (Pre-)Sales activities and customer relationship management (CRM)\n• Deal negotiation of work and service contracts\n• Service Delivery Management (SDM)\n• Guild Lead of the Cloud & IoT Guild",
+      "summary": "Scope: Building a self-contained team that is able to tackle the external market in the sectors public and defence.\n\nMain Responsibilities:\n• Chapter Lead of ~15 Developers and Cloud Consultants\n• Development and execution of a go-to-market strategy\n• (Pre-)Sales activities and stakeholder communication\n• Deal negotiation of work and service contracts\n• Guild Lead of the Cloud & IoT Guild",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
-    },
-
-    {
-      "name": "Reutlingen University",
-      "position": "University Lecturer",
-      "startDate": "2018-09-30",
-      "highlights": [],
-      "summary": "Scope: Introduction to programming and data analyses for students with technical and none-technical backgrounds.\n\nResponsibilities:\n• Introduction to data structures and procedures\n• Hands-on software development\n• Software quality attributes (focused on maintainability and modifiability with the concepts of loose coupling and cohesion)\n• Concepts of Software Engineering (requirements engineering, development methods, black-box testing, and in-code documentation)\n• User experience design (focused on customer value and exception handling)\n\nVolume: 30 hours per Semester",
-      "url": "https://www.linkedin.com/company/reutlingen-university/",
-      "location": "Reutlingen, Baden-Württemberg, Germany"
+      "location": "Stuttgart, Germany"
     },
     {
       "name": "T-Systems on site services GmbH",
@@ -68,9 +57,9 @@
       "startDate": "2020-03-31",
       "endDate": "2024-02-28",
       "highlights": [],
-      "summary": "Scope: Design and execution of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Analyzing existing synchronous (SOAP, CICS, IMS, SFTP) and asynchronous (IBM MQ, ActiveMQ) system interfaces, as well as middleware components (DB2, Java Native Interface, WebSphere)\n• Re-architecting of high demand system modules by decoupling interfaces from the application core based on the dependency inversion principle to achieve modifiability and scalability\n• Standardizing interfaces based on the technologies REST, and Apache Kafka\n• Design and implement an event-based data streaming of business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Sub-project management and team coordination (local, nearshore, and offshore)",
+      "summary": "Scope: Elaboration of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nMain Responsibilities:\n• Assessment of existing mainframe based system interfaces and middleware components\n• Re-architecting of high demand system modules by decoupling interfaces from the application core\n• Standardizing interfaces based on the technologies REST and Apache Kafka\n• Designing an event-based data streaming process for business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Project management and team coordination (local, nearshore, and offshore)\n\nTech Stack: Java, Spring, Kubernetes, Azure, AWS, REST, Apache Kafka, Apache Spark, Mainframe, WebSphere, COBOL, SOAP, CICS, SFTP, IBM MQ, IMS, DB2,  Apache Cassandra, PostgreSQL, arc42, risk management, threat modelling, DevSecOps",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
+      "location": "Stuttgart, Germany"
     },
     {
       "name": "T-Systems on site services GmbH",
@@ -78,18 +67,28 @@
       "startDate": "2019-11-30",
       "endDate": "2020-03-31",
       "highlights": [],
-      "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\n\nResponsibilities:\n• Development of scalable and maintainable RESTful services\n• Test automation \n• Creation of business objects with Apache Spark\n• Asynchronous data provision with Apache Kafka\n• Setting up fully automated monitoring with business-specific monitoring metrics \n• Setting up a fully automated CI / CD pipeline with corresponding quality gateways and GitSecOps mechanisms.",
+      "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\n\nMain Responsibilities:\n• Development of scalable and maintainable RESTful services\n• Asynchronous data provisioning with Apache Kafka\n• System performance testing\n• Automation of Monitoring and CI/CD (incl. quality gates)\n\nTech Stack: Java, Spring, REST, Apache Kafka, Openshift, PostgreSQL, Gatling, Jenkins, Grafana, Prometheus",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
+      "location": "Stuttgart, Germany"
     },
     {
+      "name": "Reutlingen University",
+      "position": "University Lecturer",
+      "startDate": "2018-09-30",
+      "highlights": [],
+      "summary": "Scope: Introduction to programming and data analyses for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analyses \n• Hands-on software development\n\nVolume: 30 hours per Semester",
+      "url": "https://www.linkedin.com/company/reutlingen-university/",
+      "location": "Reutlingen, Germany"
+    },
+    {
+      "breakBefore": true,
       "name": "Biberacher IT-Solutions",
       "position": "Freelance Software Engineer",
       "startDate": "2017-04-30",
-      "endDate": "2019-10-01",
+      "endDate": "2019-10-31",
       "highlights": [],
-      "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs.\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data entry steps.\n• Consultation for ERP systems for medium-sized practices and laboratories.\n\nProject #2: Real estate market\nProject Scope: Identification of historically undervalued commercial properties\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting with Prometheus and Grafana\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Creating a website for ticket sales for community events with Angular\n• Creating websites with a focus on ease of use and low maintenance with WordPress",
-      "location": "Region Stuttgart"
+      "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nSector: Healthcare\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data entry steps\n• Consultation for ERP systems for medium-sized practices and laboratories\n\nProject #2: Real estate market screening\nProject Scope: Identification of historically undervalued commercial properties\nSector: Real Estate\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nSector: eCommerce\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Creating a website for ticket sales for community events with Angular\n• Creating websites with a focus on ease of use and low maintenance with WordPress\n\nTech Stack: Java, Python, Angular, PostgreSQL, Prometheus, Grafana, Jenkins, Linux",
+      "location": "Stuttgart, Germany"
     },
     {
       "name": "QUANTO Solutions",
@@ -97,9 +96,9 @@
       "startDate": "2018-10-31",
       "endDate": "2019-05-31",
       "highlights": [],
-      "summary": "Scope: IT security in microservice-based systems: From monolith to a secure cloud-native application\n\nTasks:\n• Migration of an existing Java EE based IoT integration platform to Java Spring\n• Development of a microservice reference architecture with focus on scalability and cybersecurity\n• Security Audit based on NIST CSF and ISO/IEC 27001\n• Implementation of a deployment pipeline to several cloud vendors (Cloud Foundry, AWS, MS Azure)",
+      "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer new potentials to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
+      "location": "Stuttgart, Germany"
     },
     {
       "name": "Automotive Lighting",
@@ -107,9 +106,9 @@
       "startDate": "2017-03-31",
       "endDate": "2018-09-30",
       "highlights": [],
-      "summary": "Scope: Modernization and extension of a product configurator for control unit platforms.\n\nTasks:\n• Designing an open-source modernization strategy for a Microsoft Access-based application with Visual Basic frontend\n• Migrating the application to Java Spring, Thymeleaf (including jQuery and Bootstrap), and PostgreSQL\n• Integration of a process engine (BPMN, DMN)\n• System documentation with arc42",
+      "summary": "Scope: Modernization and extension of a product configurator for control unit platforms.\nSector: Automotive\n\nMain responsibilities:\n• Designing an open-source modernization strategy for a VBA and Microsoft Access based product configurator\n• Migrating the application to a modern open source stack\n• Integration of a process engine (BPMN, DMN)\n\nTech Stack: Java, Spring, PostgreSQL, Thymeleaf, jQuery, Bootstrap, Camunda, arc42",
       "url": "https://www.linkedin.com/company/marelligroup/",
-      "location": "Reutlingen, Baden-Württemberg, Germany"
+      "location": "Reutlingen, Germany"
     },
     {
       "name": "Braincourt GmbH",
@@ -117,8 +116,8 @@
       "startDate": "2016-10-31",
       "endDate": "2017-03-31",
       "highlights": [],
-      "summary": "Scope: Predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nTasks:\n• Developing a business case\n• Data collection from manufacturing execution systems (MES)\n• Designing a reference architecture for data stream analysis for predictive quality measures\n• Implementing software for predictive analysis and real-time visualization of data streams using Hadoop, Spark, and Tableau\n• Configuring a Spark cluster in AWS",
-      "location": "Stuttgart, Baden-Württemberg, Germany"
+      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs of between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
+      "location": "Stuttgart, Germany"
     },
     {
       "breakBefore": true,
@@ -127,9 +126,9 @@
       "startDate": "2014-10-31",
       "endDate": "2016-10-31",
       "highlights": [],
-      "summary": "Scope: Predictive Analytics for electronic end measurement methods of air pressure sensors.\n\nTasks:\n• Automated data export from manufacturing systems\n• Data cleaning with Python (Pandas and NumPy)\n• Creating a prediction model\n• Automated data visualization with Tableau, MatLab, and Excel\n• Web Development",
+      "summary": "Scope: Predictive analytics for electronic measurement methods of air pressure sensors to reduce production waste.\nSector: Manufacturing\n\nMain Responsibilities:\n• MES data export automation\n• Data cleaning, analyzes, and visualization\n• Development of a new prediction model to identify possible production defects\n\nTech Stack: Python, NumPy, PyTorch, Django, Matplotlib, Matlab, Excel, VBA, PostgreSQL, SFTP",
       "url": "https://www.linkedin.com/company/bosch/",
-      "location": "Reutlingen, Baden-Württemberg, Germany"
+      "location": "Reutlingen, Germany"
     }
   ],
   "volunteer": [
@@ -138,9 +137,9 @@
       "position": "Mentor",
       "startDate": "2024-04-30",
       "highlights": [],
-      "summary": "Volunteer mentor at Groundbreaker gGmbH's mentoring program for women in tech.\nThe one-year mentoring program aims to provide career starters with the tools they need to enter the world of software engineering. \n\nResponsibilities:\n• Weekly mentoring sessions\n• Software engineering basic and advanced concepts\n• Career development paths\n• Methods for independent knowledge acquisition (lifelong learning)\n• Pair Programming\n• Workshops",
+      "summary": "Scope: Volunteer mentor at Groundbreaker gGmbH's mentoring program for women in tech.\nThe one-year mentoring program aims to provide career starters with the tools they need to enter the world of software engineering. \n\nMain Responsibilities:\n• Weekly mentoring sessions\n• Software engineering basic and advanced concepts\n• Career development paths",
       "url": "https://www.linkedin.com/company/be-a-groundbreaker/",
-      "location": "Kampala, Central Region, Uganda"
+      "location": "Kampala, Uganda"
     }
   ],
   "education": [
@@ -529,28 +528,25 @@
   ],
   "projects": [
     {
-      "name": "Self-contained Homelab (Private)",
+      "name": "Self-contained Home Lab",
       "startDate": "2021-01-06",
       "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates on the OS and Kubernetes level",
       "highlights": [
         "Kubernetes (k3s)",
-        "Rancher",
-        "Infrastructure as Code (IaC)",
-        "Monitoring",
-        "GitOps",
-        "Automated Updates",
+        "Rancher & Elemental",
+        "Infrastructure as Code (IaC) & GitOps",
         "Cybersecurity"
       ],
       "url": "https://github.com/bibAtWork/Edge_GitOps"
     },
     {
-      "name": "Kafka Cluster (Private)",
+      "name": "Kafka Cluster",
       "startDate": "2022-05-01",
       "endDate": "2023-08-01",
       "description": "Containerized Kafka Cluster with UI for tryouts during the development process",
       "highlights": [
         "Apache Kafka",
-        "Container",
+        "Kubernetes (k3s)",
         "SAML Authentication",
         "Monitoring"
       ],
@@ -560,14 +556,14 @@
       "name": "Book Summarizer",
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "description": "Local LLM with RAG to summarize books and extract key ideas of the author",
+      "description": "Local LLM with RAG to summarize books and extract key ideas.",
       "highlights": [
         "Python",
         "Ollama",
-        "LangChain",
+        "LangChain & LlamaIndex",
         "ChromaDB"
       ],
-      "url": "https://hackernoon.com/a-tutorial-on-how-to-build-your-own-rag-and-how-to-run-it-locally-langchain-ollama-streamlit"
+      "url": "https://github.com/bibAtWork/summarizer"
     }
   ],
   "meta": {
