@@ -22,9 +22,9 @@ This repository helps to automatically build a professionally looking CV, withou
 `npm install -g jsonresume-theme-elegant`
 4. Verify your json file with:<br>
 `resumed validate src/main/resources/resume.json`
-5. Create your resume with:<br>
+5. Export your resume as html with:<br>
 `resumed export src/main/resources/resume.json --theme jsonresume-theme-elegant --output target/resumejson/resume.html`
-6. (Optional) Export your resume as [pdf](https://stackoverflow.com/questions/57372555/how-can-i-download-my-json-resume-as-pdf-on-my-gist) with
+6. (Optional) Export your resume as [pdf](https://stackoverflow.com/questions/57372555/how-can-i-download-my-json-resume-as-pdf-on-my-gist) with:<br>
 `resume export --resume src/main/resources/resume.json --theme jsonresume-theme-elegant --format pdf target/resumejson/resume.pdf`
 
 **last tested with the following component versions:**
