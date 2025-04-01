@@ -23,6 +23,11 @@
         "network": "GitHub",
         "username": "bibAtWork",
         "url": "https://github.com/bibAtWork/"
+      },
+      {
+        "network": "Researchgate",
+        "username": "Andreas Biberacher",
+        "url": "https://www.researchgate.net/profile/Andreas-Biberacher"
       }
     ]
   },
@@ -94,6 +99,36 @@
       "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer new potentials to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
       "location": "Stuttgart, Germany"
+    },
+    {
+      "name": "Automotive Lighting",
+      "position": "Working Student",
+      "startDate": "2017-03-31",
+      "endDate": "2018-09-30",
+      "highlights": [],
+      "summary": "Scope: Modernization and extension of a product configurator for control unit platforms.\nSector: Automotive\n\nMain responsibilities:\n• Designing an open-source modernization strategy for a VBA and Microsoft Access based product configurator\n• Migrating the application to a modern open source stack\n• Integration of a process engine (BPMN, DMN)\n\nTech Stack: Java, Spring, PostgreSQL, Thymeleaf, jQuery, Bootstrap, Camunda, arc42",
+      "url": "https://www.linkedin.com/company/marelligroup/",
+      "location": "Reutlingen, Germany"
+    },
+    {
+      "name": "Braincourt GmbH",
+      "position": "Bachelor Thesis",
+      "startDate": "2016-10-31",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs of between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
+      "location": "Stuttgart, Germany"
+    },
+    {
+      "breakBefore": true,
+      "name": "Robert Bosch GmbH",
+      "position": "Working Student",
+      "startDate": "2014-10-31",
+      "endDate": "2016-10-31",
+      "highlights": [],
+      "summary": "Scope: Predictive analytics for electronic measurement methods of air pressure sensors to reduce production waste.\nSector: Manufacturing\n\nMain Responsibilities:\n• MES data export automation\n• Data cleaning, analyzes, and visualization\n• Development of a new prediction model to identify possible production defects\n\nTech Stack: Python, NumPy, PyTorch, Django, Matplotlib, Matlab, Excel, VBA, PostgreSQL, SFTP",
+      "url": "https://www.linkedin.com/company/bosch/",
+      "location": "Reutlingen, Germany"
     }
   ],
   "volunteer": [
@@ -117,6 +152,17 @@
       "endDate": "2019-12-31",
       "score": "1,2",
       "gpa": "final grade: 1,2",
+      "courses": []
+    },
+    {
+      "institution": "Reutlingen University",
+      "url": "https://www.inf.reutlingen-university.de/studium/master/wirtschaftsinformatik-wim",
+      "area": "Business Informatics",
+      "studyType": "Bachelor of Science - B.Sc.",
+      "startDate": "2014-12-31",
+      "endDate": "2017-12-31",
+      "score": "1,8",
+      "gpa": "final grade: 1,8",
       "courses": []
     }
   ],
@@ -145,13 +191,49 @@
       "name": "TOGAF® Certification",
       "issuer": "The Open Group",
       "date": "2024-10-14",
-      "url": "https://togaf-cert.opengroup.org/certified-individuals/Biberacher"
+      "url": "https://www.opengroup.org/togaf"
+    },
+    {
+      "name": "Data Analyzes and Visualization with LLMs",
+      "issuer": "T-Systems on site services GmbH",
+      "date": "2024-07-31",
+      "url": "https://www.t-systems-onsite.de/trainings/datenanalyse-und-visualisierungen-mit-ki-chatbots-effektiv-nutzen/"
     },
     {
       "name": "AWS Certified Solutions Architect – Associate",
       "issuer": "Amazon Web Services (AWS)",
       "date": "2024-04-30",
       "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/9563fa3c4f6d40c6b963ec32b16d37a3"
+    },
+    {
+      "name": "Linux Essentials Certification",
+      "issuer": "Linux Professional Institute (LPI)",
+      "date": "2024-01-31",
+      "url": "http://lpi.org/v/LPI000584500/uxmdtn9p4b"
+    },
+    {
+      "name": "Security Essentials Certification",
+      "issuer": "Linux Professional Institute (LPI)",
+      "date": "2024-01-31",
+      "url": "http://lpi.org/v/LPI000584500/ujdruhenvs"
+    },
+    {
+      "name": "Prompt Engineering for Developers",
+      "issuer": "DeepLearning.AI",
+      "date": "2023-08-31",
+      "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+    },
+    {
+      "name": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "date": "2023-07-31",
+      "url": "https://www.comptia.org/de/zertifizierungen/security"
+    },
+    {
+      "name": "LevelUp! leadFIRST",
+      "issuer": "Deutsche Telekom",
+      "date": "2023-05-31",
+      "url": "https://www.telekom.com/en/careers/your-professional-career/development-for-leaders"
     },
     {
       "name": "The Open Group Certified Architect",
@@ -172,6 +254,12 @@
       "url": "https://www.credly.com/badges/1a9d2f84-78ff-4725-803c-d1bb25c727c2"
     },
     {
+      "name": "Data-driven improvement of software quality",
+      "issuer": "INNOQ",
+      "date": "2021-07-31",
+      "url": "https://www.innoq.com/en/trainings/software-analytics/"
+    },
+    {
       "name": "CKAD: Certified Kubernetes Application Developer",
       "issuer": "The Linux Foundation",
       "date": "2021-05-31",
@@ -188,6 +276,12 @@
       "issuer": "AXELOS Global Best Practice",
       "date": "2020-12-31",
       "url": "https://fa-axelos-prod-ukw.azurewebsites.net/api/scr/?surname=Biberacher&scheme=ITIL+4"
+    },
+    {
+      "name": "Ethikum",
+      "issuer": "Referat für Technik- und Wirtschaftsethik (RTWE)",
+      "date": "2015-06-30",
+      "url": "http://rtwe.de/ethikum.html"
     }
   ],
   "publications": [],
@@ -381,6 +475,25 @@
       ]
     },
     {
+      "name": "Wildlife",
+      "keywords": [
+        "Hiking",
+        "Camping",
+        "Canoeing"
+      ]
+    },
+    {
+      "name": "Culture / History",
+      "keywords": [
+        "South-East-Asia",
+        "India",
+        "USA",
+        "Spain",       
+        "Romania",
+        "Brazil"
+      ]
+    },
+    {
       "name": "Open Source Communities",
       "keywords": [
         "CCC",
@@ -401,13 +514,16 @@
   ],
   "references": [
     {
-      "name": "[Peter Hübner](https://www.linkedin.com/in/peter-h%C3%BCbner-96789b21a)"
+      "name": "Edison de Azevedo Filho",
+      "reference": "Andreas was the Product Owner and Architect for a project we worked on together. I had excellent experiences with Agile processes, and autonomy to manage activities, we experienced many processes running in Agile methodology. He provided an excellent working environment [...]. As an architect, he designed an architecture for a new system that was extremely modern, and despite the complexity of the project, he managed to make it easy to understand, as there was documentation of all points, in addition to constant architecture meetings with the team to discuss improvements."
     },
     {
-      "name": "[Edison de Azevedo Filho](https://www.linkedin.com/in/edison-de-azevedo/)"
+      "name": "Santana, Micael",
+      "reference": "Andreas is a true asset to any team. He brings a wealth of knowledge and expertise in cloud architecture, and is always eager to lend a hand and share his insights. Beyond his technical skills, Andreas has a deep commitment to collaboration and teamwork, making him an valuable partner in any project. He is also dedicated to staying current with the latest advancements and trends in his field, ensuring that he is always at the forefront of innovation. [...]"
     },
     {
-      "name": "[Anamaria Onaciu](https://www.linkedin.com/in/anamaria-onaciu)"
+      "name": "Anamaria Onaciu",
+      "reference": "During the time we worked together, I learned the following things from Andreas. Things that are very important for a good team leader and a \"healthy\" team : \n- he knows very well the technical aspects, and this is very useful for the team and for the project\n- he doesn’t say YES to each request from the team. He analyses together with the team members the best solution for them and for the project.\n- he has a lot of patience\n- he has a respectful attitude towards all team members\n- he creates a favourable climate for the team to develop professionally and not to be afraid to ask questions or to say, \"I don't know\".\n- he blocks the pressure from the client and other aspects / discussions which are not productive and should not be felt / reach by the team.\n- he asks the team to make some decisions\n- he discusses the real things for improvement to retrospective in a professional way\n- he always comes with things to be improved and this helps to grow up the team"
     }
   ],
   "projects": [
@@ -422,6 +538,19 @@
         "Cybersecurity"
       ],
       "url": "https://github.com/bibAtWork/Edge_GitOps"
+    },
+    {
+      "name": "Kafka Cluster",
+      "startDate": "2022-05-01",
+      "endDate": "2023-08-01",
+      "description": "Containerized Kafka Cluster with UI for tryouts during the development process",
+      "highlights": [
+        "Apache Kafka",
+        "Kubernetes (k3s)",
+        "SAML Authentication",
+        "Monitoring"
+      ],
+      "url": "https://github.com/bibAtWork/KafkaCluster/"
     },
     {
       "name": "Book Summarizer",

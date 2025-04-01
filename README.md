@@ -15,6 +15,7 @@ This repository helps to automatically build a professionally looking CV, withou
 
 ## Setup
 
+### JsonResume
 1. Install Node.js
 2. Install the required resume parser. You can choose between [resume-cli](https://github.com/jsonresume/resume-cli) and [resumd](https://github.com/rbardini/resumed). I chose `resumd`as it is still actively maintained:<br>
 `npm install resumed`
@@ -26,6 +27,13 @@ This repository helps to automatically build a professionally looking CV, withou
 `resumed export src/main/resources/resume.json --theme jsonresume-theme-elegant --output target/resumejson/resume.html`
 6. (Optional) Export your resume as [pdf](https://stackoverflow.com/questions/57372555/how-can-i-download-my-json-resume-as-pdf-on-my-gist) with:<br>
 `resume export --resume src/main/resources/resume.json --theme jsonresume-theme-elegant --format pdf target/resumejson/resume.pdf`
+
+### Github Pages
+
+1. Go to your GitHub repository
+2. Click on "Settings"
+3. Scroll down to the "Pages" section in the left sidebar
+4. Under "Source", select "GitHub Actions"
 
 **last tested with the following component versions:**
 
