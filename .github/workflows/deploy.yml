@@ -23,13 +23,15 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npm install resumed jsonresume-theme-elegant
         
       - name: Create output directory
         run: mkdir -p target/public
         
       - name: Build resume
-        run: npx resumed export src/main/resources/resume_extended.json --theme jsonresume-theme-elegant --output target/public/index.html
+        run: npm resumed export src/main/resources/resume_extended.json --theme jsonresume-theme-elegant --output target/public/index.html
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
