@@ -2,7 +2,7 @@ name: Deploy Resume to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
         run: mkdir -p target/public
         
       - name: Build resume
-        run: npm resumed export src/main/resources/resume_extended.json --theme jsonresume-theme-elegant --output target/public/index.html
+        run: npx resumed export src/main/resources/resume_extended.json --theme jsonresume-theme-elegant --output target/public/index.html
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
