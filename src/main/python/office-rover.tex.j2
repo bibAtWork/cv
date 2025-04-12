@@ -1,0 +1,157 @@
+%-------------------------
+% Rover Resume - Office Template
+% Link: https://github.com/subidit/rover-resume
+%------------------------
+{% raw %}
+\documentclass{article}
+
+\usepackage[sfdefault,light]{FiraSans}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.8in,top=0.5in,bottom=0.5in}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*,label=\faCaretRight,itemsep=0pt}
+\usepackage{xcolor}
+\definecolor{background}{HTML}{0D47A1}
+\usepackage[explicit]{titlesec}
+\titleformat{\section}{\large\bfseries\color{white}}{}{}{\colorbox{background}{#1}}
+\titleformat{\subsubsection}{\large\itshape}{}{}{#1}
+\titlespacing{\subsection}{0pt}{*3}{*0.5}
+\titlespacing{\subsubsection}{0pt}{*0}{*0.5}
+
+\newcommand{\rside}[1]{\hfill \normalfont\scshape\MakeLowercase{#1}}
+
+\usepackage[bookmarks=false,hidelinks]{hyperref}
+{% endraw %}
+\begin{document}
+
+\begin{center}
+  \begin{minipage}{0.35\textwidth} 
+    {\Huge\bfseries ANDREAS \\ BIBERACHER} \\
+    {\sffamily\textls{Platform Architect}} \\
+  \end{minipage}\hfill
+  \begin{minipage}{0.35\textwidth}
+    \faPhone{\quad {{ basics.phone }} }  \\
+    \href{mailto:andreas-biberacher@gmx.de}{\faEnvelope\ \quad andreas-biberacher@gmx.de} \\
+    \href{https://www.openstreetmap.org/search?query=Stuttgart}{\faMapMarker\ \quad  Stuttgart, Germany} \\
+    \faLanguage{\quad German, English, Spanish} \\
+    \\
+    \href{https://bibatwork.github.io/cv/}{\faGlobe } \quad \textbar \quad 
+    \href{https://github.com/bibAtWork}{\faGithub }  \quad \textbar \quad  
+    \href{https://www.linkedin.com/in/andreas-biberacher/}{\faLinkedin} \\
+    \\
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \includegraphics[width=\linewidth]{resource/Profil.PNG}
+  \end{minipage}
+\end{center}
+
+%% EDUCATION %%
+\section{\faGraduationCap\enspace Education}
+%==========
+{% for i in work %}
+\subsection{ {{ i.position }}, \href{ {{ i.url }} }{ {{i.name}} } \rside{ {{ i.startDate  }} - {{ i.endDate | default('PRESENT') }} } }
+\subsubsection{ {{ i.position }} \rside{ {{ i.location }} } }
+\begin{flushleft}
+{{ i.summary | latexify }}
+\end{flushleft}
+{% endfor %}
+
+%% Experience %%
+\section{\faToolbox\enspace Experience}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+
+
+
+
+
+%% Projects %%
+\section{\faFlask\enspace Projects}
+%==========
+
+\subsection{Schrute Farms (Bed and Breakfast)}
+\begin{itemize}
+  \item A beautiful resort that provides fun activites like tablemaking and mattress making.
+\end{itemize}
+
+%% SKILLS %%
+
+\section{\faCogs\enspace Skills}
+%========
+\begin{description}
+  \item[Traits] Hardworking, Alpha Male, Jackhammer, Merciless, Insatiable
+  \item[Talents] Karate (Black Belt), Jujitsu, Werewolf Hunting, Table Making 
+\end{description}
+
+
+
+
+%% VOLUNTEER %%
+\section{\faHandsHelping \enspace Community Involvement}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+%% AWARDS & CERTIFICATES %%
+\section{\faTrophy\enspace Awards \& Certifications}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+%% PUBLICATIONS %%
+\section{\faBook \enspace Publications}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+%% References %%
+\section{\faUser \enspace References}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+%% Interests %%
+\section{\faHeart \enspace Interests}
+%================
+\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
+\subsubsection{Regional Manager \rside{Scranton, PA}}
+\begin{itemize}
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
+  \item Led the office to obtain immeasurable success and glory
+\end{itemize}
+
+
+\end{document}
