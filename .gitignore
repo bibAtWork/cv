@@ -1,3 +1,6 @@
+# custom
+src/main/resources/img/signature.*
+
 # Logs
 logs
 *.log

@@ -33,25 +33,29 @@ def latex_format_special_chars(value):
 env = Environment(loader=FileSystemLoader('.'))
 env.filters['latexify'] = latex_format_special_chars
 
-# Get the absolute path of the script's directory
-base_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.abspath(os.path.join(base_dir, '..'))
+# Set directory paths
+base_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../..'))
+project_dir = os.path.join(base_dir, 'src/main/python')
+resource_dir = os.path.join(base_dir, 'src/main/resources')
+target_dir = os.path.join(base_dir, 'target/latex')
 
 # Load JSON data
-json_path = os.path.join(project_root, 'resources', 'resume.json')
+json_path = os.path.join(resource_dir, 'resume.json')
 with open(json_path, 'r') as file:
     data = json.load(file)
 
 # Load LaTeX template
-template_path = os.path.join(project_root, 'python','office-rover.tex.j2')
+template_path = os.path.join(project_dir, 'office-rover.tex.j2')
 with open(template_path, 'r') as file:
     template = env.from_string(file.read())
 
 # Render LaTeX document
 rendered_tex = template.render(data)
 
+# Create target directory if it doesn't exist
+os.makedirs(target_dir, exist_ok=True)
 # Output the result
-output_path = os.path.join(project_root, 'latex', 'output.tex')
+output_path = os.path.join(target_dir, 'output.tex')
 with open(output_path, 'w') as file:
     file.write(rendered_tex)
 

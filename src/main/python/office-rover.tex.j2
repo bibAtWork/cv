@@ -22,6 +22,7 @@
 \titleformat{\subsubsection}{\large\itshape}{}{}{#1}
 \titlespacing{\subsection}{0pt}{*3}{*0.5}
 \titlespacing{\subsubsection}{0pt}{*0}{*0.5}
+\usepackage[british]{datetime2}
 
 \newcommand{\rside}[1]{\hfill \normalfont\scshape\MakeLowercase{#1}}
 
@@ -30,15 +31,16 @@
 \begin{document}
 
 \begin{center}
-  \begin{minipage}{0.35\textwidth} 
-    {\Huge\bfseries ANDREAS \\ BIBERACHER} \\
-    {\sffamily\textls{Platform Architect}} \\
+  \begin{minipage}{0.35\textwidth}
+    {% set name = basics.name.split(" ") %}
+    {\Huge\bfseries {{ name[0] }} \\ {{ name[1] }} } \\
+    {\sffamily\textls{ {{- basics.role -}}  }} \\
   \end{minipage}\hfill
   \begin{minipage}{0.35\textwidth}
     \faPhone{\quad {{ basics.phone }} }  \\
-    \href{mailto:andreas-biberacher@gmx.de}{\faEnvelope\ \quad andreas-biberacher@gmx.de} \\
-    \href{https://www.openstreetmap.org/search?query=Stuttgart}{\faMapMarker\ \quad  Stuttgart, Germany} \\
-    \faLanguage{\quad German, English, Spanish} \\
+    \href{ {{ basics.email }} }{\faEnvelope\ \quad {{ basics.email }} } \\
+    \href{https://www.openstreetmap.org/search?query={{ basics.location.city }}+{{ basics.location.country }} }{\faMapMarker\ \quad {{ basics.location.city }}, {{ basics.location.country }} } \\
+    \faLanguage{\quad {{ languages | map(attribute='language') | join(', ') }} } \\
     \\
     \href{https://bibatwork.github.io/cv/}{\faGlobe } \quad \textbar \quad 
     \href{https://github.com/bibAtWork}{\faGithub }  \quad \textbar \quad  
@@ -46,112 +48,133 @@
     \\
   \end{minipage}
   \begin{minipage}{0.2\textwidth}
-    \includegraphics[width=\linewidth]{resource/Profil.PNG}
+    \includegraphics[width=\linewidth]{resources/Profil.PNG}
   \end{minipage}
 \end{center}
 
 %% EDUCATION %%
 \section{\faGraduationCap\enspace Education}
 %==========
-{% for i in work %}
-\subsection{ {{ i.position }}, \href{ {{ i.url }} }{ {{i.name}} } \rside{ {{ i.startDate  }} - {{ i.endDate | default('PRESENT') }} } }
-\subsubsection{ {{ i.position }} \rside{ {{ i.location }} } }
+{% for edu in education %}
+\subsection{\href{ {{ edu.url }} }{ {{- edu.institution -}},  {{ edu.area}} {{ edu.studyType }} } \rside{ {{ edu.startDate[:7] }} -- {{ edu.endDate[:7] if edu.endDate else 'Present' }} } }
+\subsubsection{ {{ edu.gpa }} }
+{% if edu.courses | length > 0 %}
 \begin{flushleft}
-{{ i.summary | latexify }}
+\textbf{Specialization:}
+\begin{itemize}
+  {% for course in edu.courses %}
+    \item {{ course }}
+  {% endfor %}
+\end{itemize}
 \end{flushleft}
+{% else %}
+\vspace{1em}
+{% endif %}
 {% endfor %}
 
 %% Experience %%
 \section{\faToolbox\enspace Experience}
-%================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
-
-
-
-
-
+%==========
+{% for job in work %}
+\subsection{ {{- job.position -}}, \href{ {{ job.url }} }{ {{job.name}} } \rside{ {{ job.startDate[:7] }} -- {{ job.endDate[:7] if job.endDate else 'Present' }} } }
+\subsubsection{ {{ job.position }} \rside{ {{ job.location }} } }
+\begin{flushleft}
+{{ job.summary | latexify }}
+\end{flushleft}
+{% endfor %}
 
 %% Projects %%
 \section{\faFlask\enspace Projects}
 %==========
-
-\subsection{Schrute Farms (Bed and Breakfast)}
-\begin{itemize}
-  \item A beautiful resort that provides fun activites like tablemaking and mattress making.
-\end{itemize}
+{% for prj in projects %}
+\subsection{\href{ {{ prj.url }} }{ {{- prj.name -}} }}
+\begin{flushleft}
+\textbf{Description: } {{ prj.description }} \\[1em]
+{% if prj.highlights | length > 0 %}
+\textbf{Tech Stack: } {% for stack in prj.highlights %}{{ stack | latexify }}; {% endfor %}
+{% endif %}
+\end{flushleft}
+{% endfor %}
 
 %% SKILLS %%
-
 \section{\faCogs\enspace Skills}
 %========
 \begin{description}
-  \item[Traits] Hardworking, Alpha Male, Jackhammer, Merciless, Insatiable
-  \item[Talents] Karate (Black Belt), Jujitsu, Werewolf Hunting, Table Making 
+{% for category in skills %}
+  \item[{{ category.name | latexify }}:] {% for skill in category.keywords %}{{ skill | latexify }}; {% endfor %}
+{% endfor %}
 \end{description}
-
-
-
 
 %% VOLUNTEER %%
 \section{\faHandsHelping \enspace Community Involvement}
 %================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
+
+{% for v in volunteer %}
+\subsection{ {{- v.position -}}, \href{ {{ v.url }} }{ {{v.organization}} } \rside{ {{ v.startDate[:7] }} -- {{ v.endDate[:7] if v.endDate else 'Present' }} } }
+\subsubsection{ {{ v.position }} \rside{ {{ v.location }} } }
+\begin{flushleft}
+{{ v.summary | latexify }}
+\end{flushleft}
+{% endfor %}
 
 %% AWARDS & CERTIFICATES %%
 \section{\faTrophy\enspace Awards \& Certifications}
 %================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
+\subsection{Awards}
+{% for a in awards %}
+\subsubsection{ {{- a.title -}} \rside{ {{ a.date[:7] if a.date else '' }} } }
+\begin{flushleft}
+\textbf{Awarder:}\quad \quad  {{ a.awarder | latexify }}\\
+\textbf{Description: } {{ a.summary }}
+\end{flushleft}
+{% endfor %}
 
+\subsection{Certificates}
+\begin{flushleft}
+{% for c in certificates %}
+\href{ {{ c.url }} }{ {{- c.name -}} }, {{ c.issuer }} \rside{ {{ c.date[:7] if c.date else '' }} } 
+{% endfor %}
+\end{flushleft}
+
+{% if publications | length > 0 %}
 %% PUBLICATIONS %%
 \section{\faBook \enspace Publications}
 %================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
+{% for p in publications %}
+\subsubsection{ \href{ {{ p.url }} }{ {{- p.name -}} }, {{ p.publisher }} \rside{ {{ p.releaseDate[:7] if p.releaseDate else '' }} }  }
+\begin{flushleft}
+\textbf{Summary: }\quad {{ p.summary }}
+\end{flushleft}
+{% endfor %}
+{% endif %}
 
-%% References %%
-\section{\faUser \enspace References}
+{% if references | length > 0 %}
+%% REFERENCES %%
+\section{\faUsers \enspace References}
 %================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
+{% for r in references %}
+\begin{flushleft}
+\faUser \quad \href{ {{ r.url }} }{ \textbf{ {{- r.name -}} } }, {{ r.company }}
+\end{flushleft}
+{% endfor %}
+{% endif %}
 
 %% Interests %%
 \section{\faHeart \enspace Interests}
 %================
-\subsection{Dunder Mifflin \rside{May 2013 -- Present}}
-\subsubsection{Regional Manager \rside{Scranton, PA}}
-\begin{itemize}
-  \item Maintained the highest sales average, despite the weak economy and obsolete product
-  \item Managed, inspired, and protected the Scranton branch from criminals and raccoons
-  \item Led the office to obtain immeasurable success and glory
-\end{itemize}
+\begin{description}
+{% for i in interests %}
+  \item[{{ i.name | latexify }}:] {% for element in i.keywords %}{{ element | latexify }}; {% endfor %}
+{% endfor %}
+\end{description}
 
+\vspace{3cm}
+
+\begin{minipage}[t]{0.4\textwidth}
+  \includegraphics[width=0.6\textwidth]{resources/signature.jpg}\\
+  %\rule{6cm}{0.4pt} \\
+  {{ basics.name }} \\
+  {{ basics.location.city }}, \textit{\today}
+\end{minipage}
 
 \end{document}
