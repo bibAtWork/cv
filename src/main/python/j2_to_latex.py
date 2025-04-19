@@ -1,6 +1,8 @@
 import json
 import os
 import re
+import datetime
+from dateutil import parser
 from jinja2 import Template, Environment, FileSystemLoader
 
 ## Util functions
@@ -26,12 +28,31 @@ def latex_format_special_chars(value):
 
     return value
 
+def format_date(date_string):
+    """
+    Converts any reasonable date format to MM/YYYY format.
+    Accepts ISO formats (YYYY-MM-DD), US formats (MM/DD/YYYY),
+    European formats (DD.MM.YYYY), and various others.
+    """
+    if not date_string:
+        return ''
+    
+    try:
+        # Try to parse the date string using dateutil's flexible parser
+        date_obj = parser.parse(date_string, fuzzy=True)
+        # Format as MM/YYYY
+        return date_obj.strftime("%m/%Y")
+    except ValueError:
+        # If parsing fails, just return the original string
+        return date_string
+
 
 
 ## J2 transformation
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader('.'))
 env.filters['latexify'] = latex_format_special_chars
+env.filters['format_date'] = format_date
 
 # Set directory paths
 base_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../..'))
@@ -54,6 +75,7 @@ rendered_tex = template.render(data)
 
 # Create target directory if it doesn't exist
 os.makedirs(target_dir, exist_ok=True)
+
 # Output the result
 output_path = os.path.join(target_dir, 'output.tex')
 with open(output_path, 'w') as file:

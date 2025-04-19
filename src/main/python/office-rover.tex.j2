@@ -56,7 +56,7 @@
 \section{\faGraduationCap\enspace Education}
 %==========
 {% for edu in education %}
-\subsection{\href{ {{ edu.url }} }{ {{- edu.institution -}},  {{ edu.area}} {{ edu.studyType }} } \rside{ {{ edu.startDate[:7] }} -- {{ edu.endDate[:7] if edu.endDate else 'Present' }} } }
+\subsection{\href{ {{ edu.url }} }{ {{- edu.institution -}},  {{ edu.area}} {{ edu.studyType }} } \rside{ {{ edu.startDate | format_date }} -- {{ edu.endDate | format_date if edu.endDate else 'Present' }} } }
 \subsubsection{ {{ edu.gpa }} }
 {% if edu.courses | length > 0 %}
 \begin{flushleft}
@@ -76,7 +76,7 @@
 \section{\faToolbox\enspace Experience}
 %==========
 {% for job in work %}
-\subsection{ {{- job.position -}}, \href{ {{ job.url }} }{ {{job.name}} } \rside{ {{ job.startDate[:7] }} -- {{ job.endDate[:7] if job.endDate else 'Present' }} } }
+\subsection{ {{- job.position -}}, \href{ {{ job.url }} }{ {{job.name}} } \rside{ {{ job.startDate | format_date }} -- {{ job.endDate | format_date if job.endDate else 'Present' }} } }
 \subsubsection{ {{ job.position }} \rside{ {{ job.location }} } }
 \begin{flushleft}
 {{ job.summary | latexify }}
@@ -110,7 +110,7 @@
 %================
 
 {% for v in volunteer %}
-\subsection{ {{- v.position -}}, \href{ {{ v.url }} }{ {{v.organization}} } \rside{ {{ v.startDate[:7] }} -- {{ v.endDate[:7] if v.endDate else 'Present' }} } }
+\subsection{ {{- v.position -}}, \href{ {{ v.url }} }{ {{v.organization}} } \rside{ {{ v.startDate | format_date }} -- {{ v.endDate | format_date if v.endDate else 'Present' }} } }
 \subsubsection{ {{ v.position }} \rside{ {{ v.location }} } }
 \begin{flushleft}
 {{ v.summary | latexify }}
@@ -122,7 +122,7 @@
 %================
 \subsection{Awards}
 {% for a in awards %}
-\subsubsection{ {{- a.title -}} \rside{ {{ a.date[:7] if a.date else '' }} } }
+\subsubsection{ {{- a.title -}} \rside{ {{ a.date | format_date if a.date else '' }} } }
 \begin{flushleft}
 \textbf{Awarder:}\quad \quad  {{ a.awarder | latexify }}\\
 \textbf{Description: } {{ a.summary }}
@@ -132,7 +132,7 @@
 \subsection{Certificates}
 \begin{flushleft}
 {% for c in certificates %}
-\href{ {{ c.url }} }{ {{- c.name -}} }, {{ c.issuer }} \rside{ {{ c.date[:7] if c.date else '' }} } 
+\href{ {{ c.url }} }{ {{- c.name -}} }, {{ c.issuer }} \rside{ {{ c.date | format_date if c.date else '' }} } 
 {% endfor %}
 \end{flushleft}
 
@@ -141,7 +141,7 @@
 \section{\faBook \enspace Publications}
 %================
 {% for p in publications %}
-\subsubsection{ \href{ {{ p.url }} }{ {{- p.name -}} }, {{ p.publisher }} \rside{ {{ p.releaseDate[:7] if p.releaseDate else '' }} }  }
+\subsubsection{ \href{ {{ p.url }} }{ {{- p.name -}} }, {{ p.publisher }} \rside{ {{ p.releaseDate | format_date if p.releaseDate else '' }} }  }
 \begin{flushleft}
 \textbf{Summary: }\quad {{ p.summary }}
 \end{flushleft}
@@ -168,13 +168,14 @@
 {% endfor %}
 \end{description}
 
-\vspace{3cm}
+\vspace{1cm}
 
-\begin{minipage}[t]{0.4\textwidth}
-  \includegraphics[width=0.6\textwidth]{resources/signature.jpg}\\
+\begin{flushleft}
+  \includegraphics[width=0.25\textwidth]{resources/signature.jpg}\\
   %\rule{6cm}{0.4pt} \\
   {{ basics.name }} \\
   {{ basics.location.city }}, \textit{\today}
-\end{minipage}
+\end{flushleft}
+
 
 \end{document}
