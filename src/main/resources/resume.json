@@ -2,7 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Andreas Biberacher",
-    "label": "Bridge between Business and IT || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
+    "role": "Solution Architect",
+    "label": "Problem Solver || Software Modernization | Data Engineering | Cloud Computing | Cybersecurity & Risk Management | Agile Leadership (改善) ||",
     "image": "https://avatars.githubusercontent.com/u/57631430?v=4",
     "picture": "https://avatars.githubusercontent.com/u/57631430?v=4",
     "email": "andreas-biberacher@gmx.de",
@@ -10,6 +11,7 @@
     "summary": "I'm a passionate Tech Lead with broad knowledge in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data engineering, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Specialized in the topic of application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can Let's connect and explore ways we can prosper together.",
     "location": {
       "countryCode": "DE",
+      "country": "Germany",
       "city": "Stuttgart",
       "address": ""
     },
@@ -33,7 +35,7 @@
       "position": "Solutions Architect",
       "startDate": "2023-07-31",
       "highlights": [],
-      "summary": "Scope: Integrating of an IoT system for automated drone detection and pilot localization for KRITIS infrastructure\nSector: Public & Defence\n\nMain Responsibilities: \n• Overall responsibility for the software and platform architecture with a focus on low latency data streaming\n• Quality assurance (privacy & security audits, integration testing, regulatory compliance)\n• Presales and face to the customer for technical topics\n\nTech Stack: Websocket, Edge Computing, C2-integration, IoT, RF, 5G, DevSecOps",
+      "summary":"Scope: Integration of an IoT system for automated drone detection and pilot localization for KRITIS infrastructure.\nSector: Public & Defense\n\nMain Responsibilities: \n• Overall responsibility for the software and platform architecture with a focus on low latency data streaming\n• Quality assurance (privacy & security audits, integration testing, regulatory compliance)\n• Presales and face to the customer for technical topics\n\nTech Stack: Websocket, Kafka, Edge Computing, Cloud, C2-integration, IoT, RF, 5G, DevSecOps",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
       "location": "Stuttgart, Germany"
     },
@@ -42,7 +44,7 @@
       "position": "Chapter Lead",
       "startDate": "2023-01-31",
       "highlights": [],
-      "summary": "Scope: Building a self-contained team that is able to tackle the external market in the sectors public and defence.\n\nMain Responsibilities:\n• Chapter Lead of ~15 Developers and Cloud Consultants\n• Development and execution of a go-to-market strategy\n• (Pre-)Sales activities and stakeholder communication\n• Deal negotiation of work and service contracts\n• Guild Lead of the Cloud & IoT Guild",
+      "summary": "Scope: Built and lead a self-contained team focused on software and data solutions in the public and defense sector.\nSector: Public & Defense\n\nMain Responsibilities:\n• Disciplinary leadership of 20 employees (Developers, Cloud Consultants, and Data Engineers)\n• Development and execution of a go-to-market strategy\n• (Pre-)Sales activities and stakeholder communication\n• Deal negotiation of work and service contracts\n• Guild Lead of the Cloud & IoT Guild",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
       "location": "Stuttgart, Germany"
     },
@@ -52,7 +54,7 @@
       "startDate": "2020-03-31",
       "endDate": "2024-02-28",
       "highlights": [],
-      "summary": "Scope: Elaboration of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\n\nMain Responsibilities:\n• Assessment of existing mainframe based system interfaces and middleware components\n• Re-architecting of high demand system modules by decoupling interfaces from the application core\n• Standardizing interfaces based on the technologies REST and Apache Kafka\n• Designing an event-based data streaming process for business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Project management and team coordination (local, nearshore, and offshore)\n\nTech Stack: Java, Spring, Kubernetes, Azure, AWS, REST, Apache Kafka, Apache Spark, Mainframe, WebSphere, COBOL, SOAP, CICS, SFTP, IBM MQ, IMS, DB2,  Apache Cassandra, PostgreSQL, arc42, risk management, threat modelling, DevSecOps",
+      "summary": "Scope: Elaboration of an interface modernization and standardization strategy for a mainframe-based, mission-critical product data system of a large automotive company.\nSector: Automotive\n\nMain Responsibilities:\n• Assessment of existing mainframe based system interfaces and middleware components\n• Re-architecting of high demand system modules by decoupling interfaces from the application core\n• Standardizing interfaces based on the technologies REST and Apache Kafka\n• Designing an event-based data streaming process for business objects to a centralized Data Mesh via Apache Spark\n• Representation of company interests in customer architecture boards\n• Project management and team coordination (local, nearshore, and offshore)\n\nTech Stack: Java, Spring, Kubernetes, Azure, AWS, REST, Apache Kafka, Apache Spark, Mainframe, WebSphere, COBOL, SOAP, CICS, SFTP, IBM MQ, IMS, DB2,  Apache Cassandra, PostgreSQL, arc42, risk management, threat modelling, DevSecOps",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
       "location": "Stuttgart, Germany"
     },
@@ -62,7 +64,7 @@
       "startDate": "2019-11-30",
       "endDate": "2020-03-31",
       "highlights": [],
-      "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\n\nMain Responsibilities:\n• Development of scalable and maintainable RESTful services\n• Asynchronous data provisioning with Apache Kafka\n• System performance testing\n• Automation of Monitoring and CI/CD (incl. quality gates)\n\nTech Stack: Java, Spring, REST, Apache Kafka, Openshift, PostgreSQL, Gatling, Jenkins, Grafana, Prometheus",
+      "summary": "Scope: Development of a Minimum Viable Product (MVP) to modernize interfaces of a mainframe-based, mission-critical product data system of a large automotive company.\nSector: Automotive\n\nMain Responsibilities:\n• Development of scalable and maintainable RESTful services\n• Asynchronous data provisioning with Apache Kafka\n• System performance testing\n• Automation of Monitoring and CI/CD (incl. quality gates)\n\nTech Stack: Java, Spring, REST, Apache Kafka, Openshift, PostgreSQL, Gatling, Jenkins, Grafana, Prometheus",
       "url": "https://www.linkedin.com/company/t-systems-on-site-services-gmbh/",
       "location": "Stuttgart, Germany"
     },
@@ -71,7 +73,7 @@
       "position": "University Lecturer",
       "startDate": "2018-09-30",
       "highlights": [],
-      "summary": "Scope: Introduction to programming and data analyses for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analyses \n• Hands-on software development\n\nVolume: 30 hours per Semester",
+      "summary": "Scope: Introduction to programming and data analytics for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analytics\n• Development of ETL processes\n\nVolume: 30 hours per Semester",
       "url": "https://www.linkedin.com/company/reutlingen-university/",
       "location": "Reutlingen, Germany"
     },
@@ -79,11 +81,11 @@
       "breakBefore": true,
       "name": "Biberacher IT-Solutions",
       "position": "Freelance Software Engineer",
-      "startDate": "2017-04-30",
+      "startDate": "2017-02-28",
       "endDate": "2019-10-31",
       "highlights": [],
-      "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nSector: Healthcare\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data entry steps\n• Consultation for ERP systems for medium-sized practices and laboratories\n\nProject #2: Real estate market screening\nProject Scope: Identification of historically undervalued commercial properties\nSector: Real Estate\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nSector: eCommerce\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Creating a website for ticket sales for community events with Angular\n• Creating websites with a focus on ease of use and low maintenance with WordPress\n\nTech Stack: Java, Python, Angular, PostgreSQL, Prometheus, Grafana, Jenkins, Linux",
-      "location": "Stuttgart, Germany"
+      "summary": "Scope: Full stack software development and management consulting for small and medium-sized companies in the sectors Healthcare, Finance, and Marketing.\n\nProject #1: Digital doctor's office\nProject Scope: Digitization and automation of processes in medical practices\nSector: Healthcare\nTasks:\n• Development of an application for automated reading, analysis, and visualization of mobile sleep laboratories and long-term ECGs\n• Development of an application for automated digitization (OCR scanning) and archiving of patient reports to reduce manual data insertions\n• Consultation for ERP systems for medium-sized practices and laboratories\n\nProject #2: Real estate market screening\nProject Scope: Identification of historically undervalued commercial properties\nSector: Real Estate\nTasks:\n• Data Mining on different data dimensions (e.g. real estate price, standard land value (GIS), insurance claims)\n• Developing product metrics (KPIs) in cooperation with the subject-matter expert\n• Configuration of automated monitoring and alerting\n\nProject #3: Web Development\nProject Scope: Development and maintenance of company websites\nSector: eCommerce\nTasks:\n• Security audit of websites based on the OWASP Top 10 security vulnerabilities\n• Developing an online shop for event ticket sales with WordPress\n• SEO and SEA optimization with Matomo and Pandas\n\nTech Stack: Java, Python, Angular, PostgreSQL, Prometheus, Grafana, Jenkins, Linux",
+      "location": "Tübingen, Germany"
     },
     {
       "name": "QUANTO Solutions",
@@ -93,6 +95,16 @@
       "highlights": [],
       "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer new potentials to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
+      "location": "Stuttgart, Germany"
+    },
+    {
+      "name": "Capgemini",
+      "position": "Bachelor Thesis",
+      "startDate": "2016-10-31",
+      "endDate": "2017-02-28",
+      "highlights": [],
+      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs of between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
+      "url": "https://www.linkedin.com/company/capgemini/",
       "location": "Stuttgart, Germany"
     }
   ],
@@ -110,13 +122,28 @@
   "education": [
     {
       "institution": "Reutlingen University",
+      "url": "https://www.inf.reutlingen-university.de/studium/master/wirtschaftsinformatik-wim",
+      "area": "Business Informatics",
+      "studyType": "(M.Sc.)",
+      "startDate": "2017-03-01",
+      "endDate": "2019-07-31",
+      "score": "1.2",
+      "gpa": "final grade: 1.2",
+      "courses": [
+        "Enterprise Architecture",
+        "Data Analytics",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "institution": "Reutlingen University",
       "url": "https://www.inf.reutlingen-university.de/studium/bachelor/wirtschaftsinformatik",
       "area": "Business Informatics",
-      "studyType": "Master of Science - M.Sc.",
-      "startDate": "2017-12-31",
-      "endDate": "2019-12-31",
-      "score": "1,2",
-      "gpa": "final grade: 1,2",
+      "studyType": "(B.Sc.)",
+      "startDate": "2014-10-01",
+      "endDate": "2017-02-28",
+      "score": "1.8",
+      "gpa": "final grade: 1.8",
       "courses": []
     }
   ],
@@ -141,6 +168,12 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Generative AI with Large Language Models",
+      "issuer": "Amazon Web Services",
+      "startDate": "2025-03-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/YXXC2RSGBSHW"
+    },
     {
       "name": "TOGAF® Certification",
       "issuer": "The Open Group",
@@ -196,50 +229,98 @@
       "name": "IT Architecture",
       "level": "Master",
       "keywords": [
-        "IT Strategy Consulting",
-        "Cloud Computing",
+        "Data-intense Applications",
+        "IT-Strategy Consulting",
+        "Enterprise Architecture (TOGAF)",
+        "Business Capability Mapping",
+        "UseCase Definition",
+        "Solution Design",
+        "Modularization",
+        "DDD",
+        "Knowledge Crunching",
+        "Quality Scenarios",
+        "Trade-Off Analysis",
         "Legacy Modernization",
-        "Service-oriented Architecture (SOA)",
+        "Cloud Migration",
+        "Cloud Computing",
+        "Distributed Systems",
+        "SOA",
+        "Microservices",
+        "Monoliths",
+        "Architectural Patterns",
         "Data Mesh",
         "Data Governance",
-        "Risk Assessment",
-        "Regulatory Compliance",
-        "Cybersecurity",
-        "Identity & Access Management (IAM)",
-        "Network & Storage Architecture"
+        "Network Topologies",
+        "Prototyping",
+        "Technology Assessment"
       ]
     },
     {
-      "name": "Software Development",
+      "name": "Software Engineering",
       "level": "Advanced",
       "keywords": [
-        "Object-oriented Programming (OOP)",
-        "Java",
+        "OOP",
+        "Java", 
         "Python",
-        "DevSecOps", 
+        "DevOps",
+        "Code Review", 
         "REST",
         "SOAP",
         "GraphQL", 
         "Websocket",
-        "Message Ques",
-        "Relational Databases",
-        "NoSQL-Databases",
-        "OWASP Top 10",
-        "Test Driven Development (TDD)",
-        "RBAC"
+        "RPC",
+        "Message Queues",
+        "TDD",
+        "Refactoring",
+        "Site Reliability Engineering (SRE)",
+        "Quality Assurance (QA/SLA)",
+        "Load Testing",
+        "Contract Testing",
+        "Server Administration",
+        "Infrastructure as code (IaC)"
       ]
     },
     {
-      "name": "Data Engineering",
+      "name": "Data Analytics",
       "level": "Advanced",
       "keywords": [
+        "Mining (CRISP-DM)",
         "Data Modeling",
-        "ETL/ELT-Processes",
-        "Data Querying (SQL and NoSQL)",
-        "Big Data Technologies",
-        "Data Visualization",
-        "Data Analyzes",
-        "Event Streaming"
+        "Data Structures (ADTs, Indexes, SSTables, B-Trees, LSM)",
+        "ETL/ELT",
+        "SQL/NoSQL",
+        "ACID/BASE",
+        "CAP-Theorem",
+        "BI",
+        "Big Data",
+        "Predictive Analytics",
+        "Data Lake & Lakehouse",
+        "OLAP/OLTP",
+        "Data Streaming",
+        "MapReduce",
+        "ML/AI",
+        "Neural Networks",
+        "LLM",
+        "OCR & NLP",
+        "Regression",
+        "Classification",
+        "Clustering"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Advanced",
+      "keywords": [
+        "Requirements Analysis",
+        "Stakeholder Management",
+        "Risk Management",
+        "Planning & Execution",
+        "Monitoring & Adoption",
+        "Service Delivery Management",
+        "Budget & Resource Allocation",
+        "Scrum & Kanban",
+        "Sequential & V-Model",
+        "OKR"
       ]
     },
     {
@@ -248,70 +329,78 @@
       "keywords": [
         "Entrepreneurship",
         "Coaching & Mentoring",
-        "Employee Development",
+        "Building Relationships",
         "Conflict Resolution",
         "Strategy Communication",
-        "Team Motivation"        
+        "Change Management"     
       ]
     },
     {
-      "name": "Project Management",
+      "name": "Cybersecurity",
       "level": "Intermediate",
       "keywords": [
-        "Requirements Analysis",
-        "Planning & Execution",
-        "Monitoring & Adoption",
-        "Service Delivery Management",
-        "Budget & Resource Allocation"
+        "Threat Modelling",
+        "IAM",
+        "RBAC/ABAC",
+        "Zero Trust",
+        "Defense in Depth",
+        "Cryptography",
+        "Security Information and Event Management (SIEM)",
+        "Data Loss Prevention (DLP)",
+        "Vulnerability Management",
+        "Security Audits",
+        "Data Privacy (GDPR, HIPAA)",
+        "Disaster Recovery",
+        "Software Defined Network",
+        "VPN",
+        "Container Security",
+        "Secrets Management",
+        "Firewall Management",
+        "Regulatory Compliance (ISO/27001, NIS-2, BSI IT-Grundschutz)",
+        "OWASP"
       ]
     },
     {
-      "name": "Sales & Account Management",
+      "name": "Sales",
       "level": "Intermediate",
       "keywords": [
         "Pre-Sale",
+        "Account Management",
         "C-Level Communication",
-        "Customer Relationship Management (CRM)",
-        "Cloud Migration Solutions",
-        "Developing Pricing Models",
-        "Market Research"
+        "CRM",
+        "Pricing Models",
+        "GoTo Market",
+        "Customer Workshops",
+        "Moderation"
       ]
     },
     {
-      "name": "Sectors",
-      "level": "Intermediate",
-      "keywords": [
-        "Automotive",
-        "Manufacturing",
-        "Public Sector",
-        "Finance",
-        "Healthcare"
-      ]
-    },
-    {
-      "name": "Technologies/Tools",
+      "name": "Tools & Technologies",
       "level": "Proficient",
       "keywords": [
-        "Monoliths",
-        "Microservices",
-        "Domain-Driven Design (DDD)",
         "Clean Architecture",
-        "Infrastructure as code (IaC)",
         "ISO/IEC 27001", 
         "BSI-Grundschutz",
         "Spring Boot/Cloud/Data/Security",
         "Django",
-        "Apache Spark",
-        "Apache Hadoop",
+        "Spark",
+        "Beam",
+        "Hadoop",
+        "YARN",
         "NumPy",
         "Pandas",
+        "Jupiter",
+        "Delta Lake",
+        "Databricks",
         "Matplotlib",
         "MatLab",
         "Tableau",
         "PowerBI",
+        "dbt",
         "Kubernetes",
         "Cilium",
         "containerd",
+        "sysbox",
         "Docker",
         "Podman",
         "Istio",
@@ -320,8 +409,8 @@
         "FluxCD",
         "Cert Manager",
         "Knative",
-        "Victoria Metrics",
         "Grafana",
+        "Victoria Metrics",
         "Prometheus",
         "Jaeger",
         "OpenTelemetry",
@@ -329,18 +418,23 @@
         "Elasticsearch",
         "Kibana",
         "IBM MQ",
-        "Apache Kafka",
+        "Kafka",
         "Java Message Service (JMS)",
-        "IBM DB2",
+        "DB2",
         "PostgreSQL",
         "MySQL",
-        "Oracle DB",
-        "Apache Cassandra",
-        "Mongo DB",
+        "OracleDB",
+        "Cassandra",
+        "MongoDB",
         "Redis",
+        "Chroma",
+        "Neo4j",
+        "S3",
+        "BigQuery",
+        "Redshift",
         "Amazon Web Services (AWS)",
         "Microsoft Azure", 
-        "Google Cloud Platform (GCP)", 
+        "Google Cloud Platform (GCP)",
         "Terraform",
         "Ansible",
         "OAuth2",
@@ -350,10 +444,14 @@
         "Linux",
         "arc42",
         "C4-Model",
+        "UML",
         "OWASP ZAP",
         "JMeter",
         "Gatling",
-        "Pact"
+        "Pact",
+        "KNIME",
+        "Wazuh",
+        "OpenVPN"
       ]
     }
   ],
@@ -383,8 +481,8 @@
     {
       "name": "Open Source Communities",
       "keywords": [
-        "CCC",
-        "Netzpolitik.org",
+        "CCC & Netzpolitik.org",
+        "CNCF",
         "User Groups & Meetups",
         "Mentoring and Teaching",
         "Podcasts"
@@ -401,13 +499,28 @@
   ],
   "references": [
     {
-      "name": "[Peter Hübner](https://www.linkedin.com/in/peter-h%C3%BCbner-96789b21a)"
+      "name": "Peter Hübner",
+      "url": "https://www.linkedin.com/in/peter-h%C3%BCbner-96789b21a",
+      "company": "T-Systems on site services GmbH",
+      "reference": ""
     },
     {
-      "name": "[Edison de Azevedo Filho](https://www.linkedin.com/in/edison-de-azevedo/)"
+      "name": "Edison de Azevedo Filho",
+      "url": "https://www.linkedin.com/in/edison-de-azevedo/",
+      "company": "Deutsche Telekom AG",
+      "reference": ""
     },
     {
-      "name": "[Anamaria Onaciu](https://www.linkedin.com/in/anamaria-onaciu)"
+      "name": "Anamaria Onaciu",
+      "url": "https://www.linkedin.com/in/anamaria-onaciu",
+      "company": "GlobalLogic Inc",
+      "reference": ""
+    },
+    {
+      "name": "Dr. med. Michael Datz",
+      "url": "https://onlinestreet.de/102292-dr-med-michael-datz",
+      "company": "Allgemeinmedizin Datz",
+      "reference": ""
     }
   ],
   "projects": [
@@ -435,6 +548,18 @@
         "ChromaDB"
       ],
       "url": "https://github.com/bibAtWork/summarizer"
+    },
+    {
+      "name": "Peer-to-Peer federated RAG",
+      "startDate": "2025-03-15",
+      "description": "Vector-based peer-to-peer protocol reference implementing to demonstrate decentralized node selection and knowledge exchange based on node expertise. Developed during CF-2025-Hackathon.",
+      "highlights": [
+        "Python & Go",
+        "Ollama",
+        "Libp2p",
+        "pgvector"
+      ],
+      "url": "https://github.com/CF-2025-Hackathon/p2p-rag"
     }
   ],
   "meta": {
