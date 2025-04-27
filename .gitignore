@@ -134,3 +134,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 /target
+src/main/python/__pycache__/*

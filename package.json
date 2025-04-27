@@ -1,7 +1,24 @@
 {
   "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.0.0",
+    "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-kendall": "^0.2.0",
+    "puppeteer": "^24.1.0",
+    "resume-cli": "^3.0.8",
     "resumed": "^4.0.0"
-  }
+  },
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "This repository helps to automatically build a professionally looking CV, without the formatting  hassle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
