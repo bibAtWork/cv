@@ -78,7 +78,7 @@
       "position": "University Lecturer",
       "startDate": "2018-09-30",
       "highlights": [],
-      "summary": "Scope: Introduction to programming and data analytics for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analytics\n• Development of ETL processes\n\nVolume: 30 hours per Semester",
+      "summary": "Scope: Introduction to programming and data analytics for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analytics\n• Development of ETL processes\n\nVolume: 30 hours per semester",
       "url": "https://www.linkedin.com/company/reutlingen-university/",
       "location": "Reutlingen, Germany"
     },
@@ -98,7 +98,7 @@
       "startDate": "2018-10-31",
       "endDate": "2019-05-31",
       "highlights": [],
-      "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer new potentials to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
+      "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer additional potential to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
       "location": "Stuttgart, Germany"
     },
@@ -118,7 +118,7 @@
       "startDate": "2016-10-31",
       "endDate": "2017-02-28",
       "highlights": [],
-      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs of between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
+      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
       "url": "https://www.linkedin.com/company/capgemini/",
       "location": "Stuttgart, Germany"
     },
@@ -177,19 +177,19 @@
       "title": "Best Graduate Business Informatics M.Sc.",
       "date": "2019-10-31",
       "awarder": "Reutlingen University",
-      "summary": "Best Graduate of class Business Informatics M.Sc. 2019 at Reutlingen University"
+      "summary": "Best Graduate of class Business Informatics M.Sc. 2019 at Reutlingen University."
     },
     {
       "title": "MHP university award for innovative research",
       "date": "2018-10-31",
       "awarder": "MHP",
-      "summary": "IoT Engineering: From an idea to a scalable business case"
+      "summary": "IoT Engineering: From an idea to a scalable business case."
     },
     {
       "title": "Ethikum",
       "date": "2015-10-31",
-      "awarder": "Referat für Technik und Wissenschaftsethik (rtwe)",
-      "summary": "Award for ethics and sustainability (grade: 1.3) \nWorkload: 7 ECTS (210 hours)      http://rtwe.de/ethikum.html"
+      "awarder": "RTWE",
+      "summary": "Award for social engagement at universities."
     }
   ],
   "certificates": [
@@ -482,9 +482,9 @@
       "name": "Sectors",
       "level": "Intermediate",
       "keywords": [
+        "Public & Defense",
         "Automotive",
         "Manufacturing",
-        "Public & Defense",
         "Finance"
       ]
     },
@@ -495,7 +495,7 @@
         "Clean Architecture",
         "ISO/IEC 27001", 
         "BSI-Grundschutz",
-        "Spring Boot/Cloud/Data/Security",
+        "Spring",
         "Django",
         "Spark",
         "Beam",
@@ -652,7 +652,7 @@
     {
       "name": "Self-contained Home Lab",
       "startDate": "2021-01-06",
-      "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates on the OS and Kubernetes level",
+      "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates at the OS and Kubernetes level",
       "highlights": [
         "Kubernetes (k3s)",
         "Rancher & Elemental",

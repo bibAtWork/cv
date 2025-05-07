@@ -8,7 +8,7 @@
     "picture": "https://avatars.githubusercontent.com/u/57631430?v=4",
     "email": "andreas-biberacher@gmx.de",
     "phone": "+49 1774 330306",
-     "summary": "I'm a passionate Tech Lead with experience in Cloud Computing, Data Engineering, Cybersecurity, and Legacy Modernization. With a strong focus on delivering reliable and value-centric solutions, I thrive in an environment where quality and continuous improvement are paramount.\n\nI embody a hands-on mentality, leading by example to inspire and motivate my team. My experience in team development enables me to guide cross-functional groups towards success, fostering collaboration, and delivering reliable results.\n\nI have a deep understanding of Cloud Computing, leveraging its vast potential to architect secure and scalable systems. I stay at the forefront of emerging technologies and industry trends, proactively identifying and mitigating potential cybersecurity risks to safeguard critical data assets.\n\nBeyond my technical expertise, I am dedicated to social engagement and giving back to the community. I actively contribute to open-source projects and love to share knowledge (tech talks, mentoring, lectureships at universities, etc.), as well as collaborating with like-minded professionals to drive innovation and foster collective growth.\n\nHere are some key highlights of my background:\n\n• Proven track record as a Tech Lead, successfully delivering complex projects and business objectives.\n• Extensive experience in cloud-based solutions, especially in designing and executing multi-cloud and edge-computing strategies with Kubernetes.\n• Deep knowledge of cybersecurity principles, implementing robust measures during the software development process and in the cloud to protect sensitive information.\n• Proficient in data analyzes, utilizing distributed data processing (Apache Spark, Kafka) to extract valuable insights and drive informed decision-making.\n• Successful application modernization from COBOL/Mainframe to Java/Cloud.\n• Audience-centered communication skills to include stakeholders (developers, business experts, C-level, and external customers) in decision-making processes.\n• A leader, fostering a culture of innovation, collaboration, and growth within cross-functional teams.\n\nTo sum it up, I am the bridge between management, stakeholders, and the engine room. With my in-depth technical and leadership expertise, I navigate through the complexity of a VUCA-driven landscape, constantly maintaining an overview. By building and involving cross-functional teams, I turn my knowledge into reliable and value-creating solutions, starting from day one.\n\nLet's connect and explore ways we can prosper together.",
+    "summary": "My career in IT started at the age of 18, when I helped out in my father's company supporting the development of a remote test automation tool, later known as cloud-based ECU testing. Since then, I have worked in different roles as Developer, Architect, and Chapter Lead, have gained knowledge in Cloud Computing, Data Analytics, Cybersecurity, and Legacy Modernization, and have worked as a freelancer while completing my master's degree in business informatics.\nIn my past 6 years at T-Systems (Deutsche Telekom) my professional focus shifted from code and tools to customers and their business challenges. Focusing on designing solution architectures for data-intensive applications.\n\nKey capabilities:\n• Building data-driven, cloud-native architectures (Spark, Kubernetes, AWS, Azure, GCP)\n• Delivering software with fast time-to-market and regulatory compliance (e.g. GDPR, ISO 27001, BSI IT-Grundschutz)\n• Leading multi-national teams (up to 30 people, €5.7M revenue)\n• Communicating to versatile stakeholders—from engineering to C-level\n• Driving Go-to-Market strategy and technical pre-sales",
     "location": {
       "countryCode": "DE",
       "country": "Germany",
@@ -73,7 +73,7 @@
       "position": "University Lecturer",
       "startDate": "2018-09-30",
       "highlights": [],
-      "summary": "Scope: Introduction to programming and data analytics for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analytics\n• Development of ETL processes\n\nVolume: 30 hours per Semester",
+      "summary": "Scope: Introduction to programming and data analytics for students with technical and none-technical backgrounds.\n\nContent:\n• Introduction to data structures, procedures, and software engineering\n• Basic principles and best practices of data analytics\n• Development of ETL processes\n\nVolume: 30 hours per semester",
       "url": "https://www.linkedin.com/company/reutlingen-university/",
       "location": "Reutlingen, Germany"
     },
@@ -93,7 +93,7 @@
       "startDate": "2018-10-31",
       "endDate": "2019-05-31",
       "highlights": [],
-      "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer new potentials to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
+      "summary": "Title: IT security in microservice-based systems - From monolith to a secure cloud-native application\n\nKey findings:\n• Microservices have a broader attack surface compared to monolithic architectures. On the other hand, they offer additional potential to achieve high availability and attack mitigation by a defense-in-depth approach instead of pure perimeter defense.\n• The API-Gateway and Service Registry are critical components in a microservice architecture and must be protected against specific (e.g., service spoofing, DNS/config poisoning, feigned health status), as well as generic (OWASP Top10, DDoS, MITM) attacks.\n• Security audits using NIST CSF and ISO/IEC 27001 help identify and prioritize risks and address them through measures like circuit breakers, single-service-per-host policies, and container isolation.\n\nTech Stack: Java, Java EE, Spring, Docker, Cloud Foundry (SAP), AWS, MS Azure, Openshift, Jenkins",
       "url": "https://www.linkedin.com/company/quanto-solutions/",
       "location": "Stuttgart, Germany"
     },
@@ -103,7 +103,7 @@
       "startDate": "2016-10-31",
       "endDate": "2017-02-28",
       "highlights": [],
-      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs of between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
+      "summary": "Title: Industry 4.0 predictive quality analysis in industrial manufacturing - analysis and visualization of data streams.\n\nKey findings:\n• Predictive quality analysis in sensor production can lead to a reduction in production costs between 15-30% depending on the manufacturing depth. \n• The best analytical results came from decaying windows in combination with streaming k-NN (supervised) or streaming k-Means (unsupervised) learning algorithms. McDiarmid decision trees can be an alternative, if sufficient computing resources are available and resistance to noise is required.\n• As a reference architecture for distributed k-Means real-time analyses, Apache Spark with Hadoop is a suitable choice.\n\nTech Stack: Business case analysis, Hadoop, Spark, Python, PyTorch, AWS, Tableau",
       "url": "https://www.linkedin.com/company/capgemini/",
       "location": "Stuttgart, Germany"
     }
@@ -152,19 +152,19 @@
       "title": "Best Graduate Business Informatics M.Sc.",
       "date": "2019-10-31",
       "awarder": "Reutlingen University",
-      "summary": "Best Graduate of class Business Informatics M.Sc. 2019 at Reutlingen University"
+      "summary": "Best Graduate of class Business Informatics M.Sc. 2019 at Reutlingen University."
     },
     {
       "title": "MHP university award for innovative research",
       "date": "2018-10-31",
       "awarder": "MHP",
-      "summary": "IoT Engineering: From an idea to a scalable business case"
+      "summary": "IoT Engineering: From an idea to a scalable business case."
     },
     {
       "title": "Ethikum",
       "date": "2015-10-31",
-      "awarder": "Referat für Technik und Wissenschaftsethik (rtwe)",
-      "summary": "Award for ethics and sustainability (grade: 1.3) \nWorkload: 7 ECTS (210 hours)      http://rtwe.de/ethikum.html"
+      "awarder": "RTWE",
+      "summary": "Award for social engagement at universities."
     }
   ],
   "certificates": [
@@ -233,21 +233,13 @@
         "IT-Strategy Consulting",
         "Enterprise Architecture (TOGAF)",
         "Business Capability Mapping",
-        "UseCase Definition",
         "Solution Design",
-        "Modularization",
         "DDD",
-        "Knowledge Crunching",
-        "Quality Scenarios",
         "Trade-Off Analysis",
         "Legacy Modernization",
         "Cloud Migration",
-        "Cloud Computing",
         "Distributed Systems",
         "SOA",
-        "Microservices",
-        "Monoliths",
-        "Architectural Patterns",
         "Data Mesh",
         "Data Governance",
         "Network Topologies",
@@ -274,8 +266,7 @@
         "Refactoring",
         "Site Reliability Engineering (SRE)",
         "Quality Assurance (QA/SLA)",
-        "Load Testing",
-        "Contract Testing",
+        "Testing",
         "Server Administration",
         "Infrastructure as code (IaC)"
       ]
@@ -301,10 +292,7 @@
         "ML/AI",
         "Neural Networks",
         "LLM",
-        "OCR & NLP",
-        "Regression",
-        "Classification",
-        "Clustering"
+        "OCR & NLP"
       ]
     },
     {
@@ -314,25 +302,8 @@
         "Requirements Analysis",
         "Stakeholder Management",
         "Risk Management",
-        "Planning & Execution",
-        "Monitoring & Adoption",
         "Service Delivery Management",
-        "Budget & Resource Allocation",
-        "Scrum & Kanban",
-        "Sequential & V-Model",
-        "OKR"
-      ]
-    },
-    {
-      "name": "People Lead",
-      "level": "Advanced",
-      "keywords": [
-        "Entrepreneurship",
-        "Coaching & Mentoring",
-        "Building Relationships",
-        "Conflict Resolution",
-        "Strategy Communication",
-        "Change Management"     
+        "Budget & Resource Allocation"
       ]
     },
     {
@@ -350,9 +321,6 @@
         "Vulnerability Management",
         "Security Audits",
         "Data Privacy (GDPR, HIPAA)",
-        "Disaster Recovery",
-        "Software Defined Network",
-        "VPN",
         "Container Security",
         "Secrets Management",
         "Firewall Management",
@@ -370,55 +338,33 @@
         "CRM",
         "Pricing Models",
         "GoTo Market",
-        "Customer Workshops",
-        "Moderation"
-      ]
-    },
-    {
-      "name": "Sectors",
-      "level": "Intermediate",
-      "keywords": [
-        "Automotive",
-        "Manufacturing",
-        "Public & Defense",
-        "Finance"
+        "Customer Workshops"
       ]
     },
     {
       "name": "Tools & Technologies",
       "level": "Proficient",
       "keywords": [
-        "Clean Architecture",
-        "ISO/IEC 27001", 
-        "BSI-Grundschutz",
-        "Spring Boot/Cloud/Data/Security",
+        "Spring",
         "Django",
         "Spark",
-        "Beam",
         "Hadoop",
-        "YARN",
-        "NumPy",
         "Pandas",
-        "Jupiter",
         "Delta Lake",
         "Databricks",
-        "Matplotlib",
         "MatLab",
         "Tableau",
         "PowerBI",
-        "dbt",
         "Kubernetes",
         "Cilium",
         "containerd",
         "sysbox",
         "Docker",
-        "Podman",
         "Istio",
         "Helm",
         "Open Policy Agent (OPA)",
         "FluxCD",
         "Cert Manager",
-        "Knative",
         "Grafana",
         "Victoria Metrics",
         "Prometheus",
@@ -426,19 +372,16 @@
         "OpenTelemetry",
         "Logstash",
         "Elasticsearch",
-        "Kibana",
         "IBM MQ",
         "Kafka",
         "Java Message Service (JMS)",
         "DB2",
         "PostgreSQL",
-        "MySQL",
         "OracleDB",
         "Cassandra",
         "MongoDB",
         "Redis",
         "Chroma",
-        "Neo4j",
         "S3",
         "BigQuery",
         "Redshift",
@@ -489,7 +432,7 @@
       ]
     },
     {
-      "name": "Open Source Communities",
+      "name": "Open Source",
       "keywords": [
         "CCC & Netzpolitik.org",
         "CNCF",
@@ -537,7 +480,7 @@
     {
       "name": "Self-contained Home Lab",
       "startDate": "2021-01-06",
-      "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates on the OS and Kubernetes level",
+      "description": "Setup for a low maintenance and secure home server, that uses automated atomic updates at the OS and Kubernetes level",
       "highlights": [
         "Kubernetes (k3s)",
         "Rancher & Elemental",
